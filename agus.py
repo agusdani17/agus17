@@ -63,17 +63,17 @@ prox=open('.prox.txt','r').read().splitlines()
 for jiah in range(1000):
  aa='Mozilla/4.0 (kompatibel; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322'
  b=random.choice(['6','7','8','9','10','11','12'])
- c=' Android 11;'
+ c=' PC Windows;'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
  e=random.randrange(100, 9999)
  f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 # g='AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/'
- g='Mozilla/4.0 (kompatibel; MSIE 6.0; Windows 98; .NET CLR 1.1.4322'
+ g='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
  h=random.randrange(73,100)
  i='0'
  j=random.randrange(4200,4900)
  k=random.randrange(40,150)
- l='Mozilla/4.0 (kompatibel; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322'
+ l='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
  uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 # uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
  ugen.append(uaku2)
