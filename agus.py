@@ -61,7 +61,7 @@ except Exception as e:
 prox=open('.prox.txt','r').read().splitlines()
 #os.system('rm -rf .prox.txt')
 for jiah in range(1000):
- aa='Mozilla/4.0 (kompatibel; MSIE 6.0; Windows NT 5.0; .NET CLR 1.1.4322'
+ aa='Microsoft Office/14.0 (Windows NT 6.1; Microsoft Outlook 14.0.7143; Pro'
  b=random.choice(['6','7','8','9','10','11','12'])
  c=' PC Windows;'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -73,7 +73,7 @@ for jiah in range(1000):
  i='0'
  j=random.randrange(4200,4900)
  k=random.randrange(40,150)
- l='Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
+ l='Microsoft Office/14.0 (Windows NT 6.1; Microsoft Outlook 14.0.7143; Pro)'
  uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 # uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
  ugen.append(uaku2)
