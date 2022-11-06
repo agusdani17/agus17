@@ -61,14 +61,14 @@ except Exception as e:
 prox=open('.prox.txt','r').read().splitlines()
 #os.system('rm -rf .prox.txt')
 for jiah in range(1000):
- aa='Mozilla/5.0 (Linux;'
+ aa='Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build'
  b=random.choice(['6','7','8','9','10','11','12'])
- c='SAMSUNG SM-G900F'
+ c='HUAWEIEML-AL00'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
  e=random.randrange(100, 9999)
  f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 # g='AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/'
- g='AppleWebKit/537.36 (KHTML, seperti Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36'
+ g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN'
  h=random.randrange(73,100)
  i='0'
  j=random.randrange(4200,4900)
@@ -832,7 +832,7 @@ def cek_opsi():
     exit()
 def cekopsii(id,pw):
     try:
-        ua = 'Mozilla/5.0 (Linux; Android 5.1.1; A37f Build/LMY47V; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/95.0.4638.74 Mobile Safari/537.36'
+        ua = 'AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN'
 
         req=requests.Session()
         head={'Host': 'mbasic.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="67", "Chromium";v="67"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://mbasic.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','sec-fetch-site': 'same-origin','sec-fetch-mode': 'navigate','sec-fetch-user': '?1','sec-fetch-dest': 'document','referer': 'https://mbasic.facebook.com/?locale=id_ID&_rdr','accept-language': 'en-US;q=0.8,en;q=0.7'}
