@@ -61,19 +61,19 @@ except Exception as e:
 prox=open('.prox.txt','r').read().splitlines()
 #os.system('rm -rf .prox.txt')
 for jiah in range(1000):
- aa='Mozilla/5.0 (SMART-TV; Linux 8;'
+ aa='Mozilla/5.0 (SMART-TV; Linux 8; Smart TVN50J) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/74.0.4825.116 SamsungBrowser/1.1 tv Safari/538.1'
  b=random.choice(['6','7','8','9','10','11','12'])
  c='Smart TVN50J'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
  e=random.randrange(100, 9999)
  f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 # g='AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/74.0.4825.116'
- g='AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/74.0.4825.116'
+ g='Mozilla/5.0 (SMART-TV; Linux 8; Smart TVN50J) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/74.0.4825.116 SamsungBrowser/1.1 tv Safari/538.1'
  h=random.randrange(73,100)
  i='0'
  j=random.randrange(4200,4900)
  k=random.randrange(40,150)
- l='SamsungBrowser/1.1 tv Safari/538.1'
+ l='Mozilla/5.0 (SMART-TV; Linux 11; Smart TVV636X) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/95.0.4502.64 SamsungBrowser/1.1 tv Safari/538.1'
  uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 # uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
  ugen.append(uaku2)
