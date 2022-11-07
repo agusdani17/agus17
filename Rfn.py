@@ -879,7 +879,7 @@ def cracktouch(idf,pwv):
 	fff = '%'
 	nip=random.choice(prox)
 	proxs= {'http': 'socks5://'+nip}
-	ua = random.choice"Mozilla/5.0 (SMART-TV; Linux 8; Smart TVN50J) AppleWebkit/538.1 (KHTML, like Gecko) SamsungBrowser/74.0.4825.116 SamsungBrowser/1.1 tv Safari/538.1"
+	ua = random.choice(ugen)
 	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	sys.stdout.write('\r%s ☬ %s/%s ☬ OK:%s ☬ CP:%s ☬ %s%s%s ☬'%(bi,loop,len(id2),ok,cp,int(pers),str(fff),x));sys.stdout.flush()
