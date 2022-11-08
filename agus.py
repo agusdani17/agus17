@@ -629,9 +629,9 @@ def setting():
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	print('>> 1. Mobile (FAST RECOMEND)')
-	print('>> 2. Mbasic ')
-	print('>> 3. Touch  ')
-	print('>> 4. Mtouch ')
+#	print('>> 2. Mbasic ')
+#	print('>> 3. Touch  ')
+$	print('>> 4. Mtouch ')
 	print('')
 	hc = input('>> Pilih : ')
 	if hc in ['1','01']:
