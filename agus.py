@@ -191,9 +191,24 @@ def tahun(fx):
 	return tahunz
 #------------------[ LOGO-BANNER ]-----------------#
 def banner():	
-	print(f"""{u} _______  ______ _______ _______ _     _
- |       |_____/ |_____| |       |____/ 
- |_____  |    \_ |     | |_____  |    \_{m}  {k}  {h}  {sir} Made In Indonesian{x}{m}  {k}  {h}  {x}""")
+	print(f"""{u}                                                                                                                                                                                                                                                                          
+        GGGGGGGGGGGGGUUUUUUUU     UUUUUUUU   SSSSSSSSSSSSSSS DDDDDDDDDDDDD                  AAA               NNNNNNNN        NNNNNNNN
+     GGG::::::::::::GU::::::U     U::::::U SS:::::::::::::::SD::::::::::::DDD              A:::A              N:::::::N       N::::::N
+   GG:::::::::::::::GU::::::U     U::::::US:::::SSSSSS::::::SD:::::::::::::::DD           A:::::A             N::::::::N      N::::::N
+  G:::::GGGGGGGG::::GUU:::::U     U:::::UUS:::::S     SSSSSSSDDD:::::DDDDD:::::D         A:::::::A            N:::::::::N     N::::::N
+ G:::::G       GGGGGG U:::::U     U:::::U S:::::S              D:::::D    D:::::D       A:::::::::A           N::::::::::N    N::::::N
+G:::::G               U:::::D     D:::::U S:::::S              D:::::D     D:::::D     A:::::A:::::A          N:::::::::::N   N::::::N
+G:::::G               U:::::D     D:::::U  S::::SSSS           D:::::D     D:::::D    A:::::A A:::::A         N:::::::N::::N  N::::::N
+G:::::G    GGGGGGGGGG U:::::D     D:::::U   SS::::::SSSSS      D:::::D     D:::::D   A:::::A   A:::::A        N::::::N N::::N N::::::N
+G:::::G    G::::::::G U:::::D     D:::::U     SSS::::::::SS    D:::::D     D:::::D  A:::::A     A:::::A       N::::::N  N::::N:::::::N
+G:::::G    GGGGG::::G U:::::D     D:::::U        SSSSSS::::S   D:::::D     D:::::D A:::::AAAAAAAAA:::::A      N::::::N   N:::::::::::N
+G:::::G        G::::G U:::::D     D:::::U             S:::::S  D:::::D     D:::::DA:::::::::::::::::::::A     N::::::N    N::::::::::N
+ G:::::G       G::::G U::::::U   U::::::U             S:::::S  D:::::D    D:::::DA:::::AAAAAAAAAAAAA:::::A    N::::::N     N:::::::::N
+  G:::::GGGGGGGG::::G U:::::::UUU:::::::U SSSSSSS     S:::::SDDD:::::DDDDD:::::DA:::::A             A:::::A   N::::::N      N::::::::N
+   GG:::::::::::::::G  UU:::::::::::::UU  S::::::SSSSSS:::::SD:::::::::::::::DDA:::::A               A:::::A  N::::::N       N:::::::N
+     GGG::::::GGG:::G    UU:::::::::UU    S:::::::::::::::SS D::::::::::::DDD A:::::A                 A:::::A N::::::N        N::::::N
+        GGGGGG   GGGG      UUUUUUUUU       SSSSSSSSSSSSSSS   DDDDDDDDDDDDD   AAAAAAA                   AAAAAAANNNNNNNN         NNNNNNN                                                                                                                                                                                                                                                                            
+""")
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
 	try:
