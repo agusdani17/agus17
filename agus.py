@@ -191,7 +191,7 @@ def tahun(fx):
 	return tahunz
 #------------------[ LOGO-BANNER ]-----------------#
 def banner():	
-	print(f"""{x}	
+	print(f"""{h}	
 ||	 ██████╗ ██╗   ██╗███████╗██████╗  █████╗ ███╗   ██╗        ███╗   ███╗██╗  ██╗███████╗ $$  ||
 ||	██╔════╝ ██║   ██║██╔════╝██╔══██╗██╔══██╗████╗  ██║        ████╗ ████║██║ ██╔╝██╔════╝ R   ||
 ||	██║  ███╗██║   ██║███████╗██║  ██║███████║██╔██╗ ██║        ██╔████╔██║█████╔╝ ███████╗ E   ||
@@ -234,7 +234,7 @@ def login_lagi334():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL.........Jalankan Lagi Perintahnya!!!!{x} ');time.sleep(1)
+		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL.........Jalankan python agus.py!!!!{x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -264,7 +264,7 @@ def menu(my_name,my_id):
 	print(f'[•] Status : {h}Premium{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
-	print('>> 𝟏. 𝐂𝐫𝐚𝐜𝐤 𝐏𝐮𝐛𝐥𝐢𝐤 ')
+	cetak(nel(' 𝟏. 𝐂𝐫𝐚𝐜𝐤 𝐏𝐮𝐛𝐥𝐢𝐤 )))
 	print('>> 𝟐. 𝐂𝐫𝐚𝐜𝐤 𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫 ')
 	print('>> 𝟑. 𝐂𝐫𝐚𝐜𝐤 𝐆𝐫𝐮𝐩 ')
 	print('>> 𝟒. 𝐂𝐫𝐚𝐜𝐤 𝐅𝐢𝐥𝐞')
