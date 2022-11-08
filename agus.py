@@ -264,7 +264,7 @@ def menu(my_name,my_id):
 	print(f'[•] Status : {h}Premium{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
-	cetak(nel(' 𝟏. 𝐂𝐫𝐚𝐜𝐤 𝐏𝐮𝐛𝐥𝐢𝐤 )))
+	print('cetak(nel('>> 𝟏. 𝐂𝐫𝐚𝐜𝐤 𝐏𝐮𝐛𝐥𝐢𝐤 )))
 	print('>> 𝟐. 𝐂𝐫𝐚𝐜𝐤 𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫 ')
 	print('>> 𝟑. 𝐂𝐫𝐚𝐜𝐤 𝐆𝐫𝐮𝐩 ')
 	print('>> 𝟒. 𝐂𝐫𝐚𝐜𝐤 𝐅𝐢𝐥𝐞')
