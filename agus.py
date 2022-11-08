@@ -201,7 +201,7 @@ def banner():
 |			|╔═╗╔═╗╦╔═  ╔═╗╦═╗╔═╗╔═╗╦╔═  ╔═╗╔═╗╦╔═  ╔╦╗╔═╗╦╔═╔═╗╔╗╔|		    |
 |			|║ ╦╠═╣╠╩╗  ║  ╠╦╝╠═╣║  ╠╩╗  ║ ╦╠═╣╠╩╗  ║║║╠═╣╠╩╗╠═╣║║║|		    |
 |			|╚═╝╩ ╩╩ ╩  ╚═╝╩╚═╩ ╩╚═╝╩ ╩  ╚═╝╩ ╩╩ ╩  ╩ ╩╩ ╩╩ ╩╩ ╩╝╚╝|		    |
-========================|=============================================================================  
+=====================================================================================================  
                                                                                                                                                                                                                                                                                                                                                                                                           
 """)   	
 #--------------------[ BAGIAN-MASUK ]--------------#
@@ -229,7 +229,7 @@ def login_lagi334():
 		os.system('clear')
 		banner()
 		asu = random.choice([m,k,h,b,u])
-		cookie=input(f'  [{h}•{x}] <h1>ＭＡＳＵＫＫＡＮ ＣＯＯＫＩＥＳ</h1> :{asu} ')
+		cookie=input(f'  [{h}•{x}] ＭＡＳＵＫＫＡＮ ＣＯＯＫＩＥＳ :{asu} ')
 		data = requests.get("https://business.facebook.com/business_locations", headers = {"user-agent": "Mozilla/5.0 (Linux; Android 6.0.1; Redmi 4A Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/59.0.3071.92 Mobile Safari/537.36","referer": "https://www.facebook.com/","host": "business.facebook.com","origin": "https://business.facebook.com","upgrade-insecure-requests" : "1","accept-language": "id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7","cache-control": "max-age=0","accept":"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*[inserted by cython to avoid comment closer]/[inserted by cython to avoid comment start]*;q=0.8","content-type":"text/html; charset=utf-8"}, cookies = {"cookie":cookie}) 
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
@@ -259,16 +259,16 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/Al-Vino'
-	cetak(nel('\tSelamat Datang [yellow]%s[white] Ngentod'%(my_name)))
-	print(f'{P}[•] Recode : RIFAN-XD')
+	cetak(nel('\tSelamat Datang [yellow]%s[white] GUYS'%(my_name)))
+	print(f'{P}[•] Recode : AGUS-XD')
 	print(f'[•] Status : {h}Premium{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
-	print('>> 1. Crack Publik ')
-	print('>> 2. Crack Follower ')
-	print('>> 3. Crack Grup   ')
-	print('>> 4. Crack File	')
-	print('>> 5. Hasil Crack  ')
+	print('>> 𝟏. 𝐂𝐫𝐚𝐜𝐤 𝐏𝐮𝐛𝐥𝐢𝐤 ')
+	print('>> 𝟐. 𝐂𝐫𝐚𝐜𝐤 𝐅𝐨𝐥𝐥𝐨𝐰𝐞𝐫 ')
+	print('>> 𝟑. 𝐂𝐫𝐚𝐜𝐤 𝐆𝐫𝐮𝐩 ')
+	print('>> 𝟒. 𝐂𝐫𝐚𝐜𝐤 𝐅𝐢𝐥𝐞')
+	print('>> 𝟓. 𝐇𝐚𝐬𝐢𝐥 𝐂𝐫𝐚𝐜𝐤  ')
 	print('>> 0. Keluar       ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
