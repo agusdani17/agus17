@@ -50,19 +50,19 @@ def jalan(z):
 		time.sleep(0.03)
 
 for jiah in range(1000):
- aa='Mozilla/5.0 (Linux; Android'
+ aa='Mozilla/5.0 (Linux; Android 10;'
  b=random.choice(['6','7','8','9','10','11','12'])
- c='Infinix'
+ c='SM-'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
  e=random.randrange(678, 9999)
  f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 # g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
- g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+ g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
  h=random.randrange(73,100)
  i='0'
  j=random.randrange(4200,4900)
  k=random.randrange(40,150)
- l='Mobile Safari/537.36[FBAN/FB4A;FBAV/222.0.0.48.113;]'
+ l='Android (29/10; 540dpi; 1080x2058; samsung; SM-G965F; star2lte; samsungexynos9810; it_IT; 414443972)'
  uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 # uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
  ugen.append(uaku2)
@@ -602,44 +602,134 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-  wl = '# SETTING URUTAN ID'
-  sol().print(mark(wl, style='green'))
-  teks = '[01] Crack Dari Akun Tertua (Not Recommended)\n[02] Crack Dari Akun Termuda (Recommended)\n[03] Acak Urutan ID (Highly Recommended)'
-  tak = nel(teks, style='white')
-  cetak(nel(tak, title='SETTING'))
-  hu = input(x+'['+p+'f'+x+'] Pilih : ')
-  if hu in ['1','01']:
-    for bacot in id:
-      id2.append(bacot)
-  elif hu in ['2','02']:
-    for bacot in id:
-      id2.insert(0,bacot)
-  elif hu in ['3','03']:
-    for bacot in id:
-      xx = random.randint(0,len(id2))
-      id2.insert(xx,bacot)
-  else:
-    ric = '# PILIHAN TIDAK ADA DI MENU'
-    sol().print(mark(ric, style='red'))
-    exit()
-  met = '# PILIH METHOD CRACK'
-  sol().print(mark(met, style='green'))
-  ioz = '[01] Method Mobile (Fast)\n[02] Method Mbasic (Slow)'
-  gess = nel(ioz, style='white')
-  cetak(nel(gess, title='METHOD'))
-  hc = input(x+'['+p+'f'+x+'] Pilih : ')
-  if hc in ['1','01']:
-    method.append('mobile')
-  else:
-    method.append('mbasic')
-  guw = '# INGIN OPSI CRACK?'
-  sol().print(mark(guw, style='green'))
-  osk = input(x+'['+p+'f'+x+'] Tampilkan Opsi Checkpoint? [ Not Recommended ] (y/t) : ')
-  if osk in ['y','Y']:
-    oprek.append('ya')
-  else:
-    oprek.append('no')
-  passwrd()
+	print(f'{x}>> 1. Akun Old ')
+	print('>> 2. Akun New (Rekomendasi)')
+	print('>> 3. Random ')
+	print('')
+	hu = input('>> Pilih : ')
+	if hu in ['1','01']:
+		for tua in sorted(id):
+			id2.append(tua)
+
+	elif hu in ['2','02']:
+		muda=[]
+		for bacot in sorted(id):
+			muda.append(bacot)
+		bcm=len(muda)
+		bcmi=(bcm-1)
+		for xmud in range(bcm):
+			id2.append(muda[bcmi])
+			bcmi -=1
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+	else:
+		print('>> Pilih Yang Bener Kontooll ')
+		exit()
+	print('>> 1. Mobile (Rekomendasi)')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
+	print('')
+	hc = input('>> Pilih : ')
+	if hc in ['1','01']:
+		method.append('mobile')
+	elif hc in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		setting()
+#	elif hc in ['2','02']:
+#		method.append('free')
+#	elif hc in ['3','03']:
+#		method.append('touch')
+	elif hc in ['4','04']:
+		method.append('mbasic')
+	else:
+		method.append('mobile')
+	print('')
+	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
+	if _jembot_ in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		back()
+	elif _jembot_ in ['y','Y']:
+		taplikasi.append('ya')
+	else:
+		taplikasi.append('no')
+	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
+	if pwplus in ['y','Y']:
+		pwpluss.append('ya')
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		pwku=input('>> Masukkan Password Tambahan : ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
+		pwpluss.append('no')
+	passwrd()def setting():
+	print(f'{x}>> 1. Akun Old ')
+	print('>> 2. Akun New (Rekomendasi)')
+	print('>> 3. Random ')
+	print('')
+	hu = input('>> Pilih : ')
+	if hu in ['1','01']:
+		for tua in sorted(id):
+			id2.append(tua)
+
+	elif hu in ['2','02']:
+		muda=[]
+		for bacot in sorted(id):
+			muda.append(bacot)
+		bcm=len(muda)
+		bcmi=(bcm-1)
+		for xmud in range(bcm):
+			id2.append(muda[bcmi])
+			bcmi -=1
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+	else:
+		print('>> Pilih Yang Bener Kontooll ')
+		exit()
+	print('>> 1. Mobile (Rekomendasi)')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
+	print('')
+	hc = input('>> Pilih : ')
+	if hc in ['1','01']:
+		method.append('mobile')
+	elif hc in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		setting()
+#	elif hc in ['2','02']:
+#		method.append('free')
+#	elif hc in ['3','03']:
+#		method.append('touch')
+	elif hc in ['4','04']:
+		method.append('mbasic')
+	else:
+		method.append('mobile')
+	print('')
+	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
+	if _jembot_ in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		back()
+	elif _jembot_ in ['y','Y']:
+		taplikasi.append('ya')
+	else:
+		taplikasi.append('no')
+	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
+	if pwplus in ['y','Y']:
+		pwpluss.append('ya')
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		pwku=input('>> Masukkan Password Tambahan : ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
+		pwpluss.append('no')
+	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
 	print(f'-<<•>>- {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} -<<•>>- ')
