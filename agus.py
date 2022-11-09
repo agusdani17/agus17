@@ -605,7 +605,7 @@ def setting():
   wl = '# SETTING URUTAN ID'
   sol().print(mark(wl, style='green'))
   teks = '[01] Crack Dari Akun Tertua (Not Recommended)\n[02] Crack Dari Akun Termuda (Recommended)\n[03] Acak Urutan ID (Highly Recommended)'
-  tak = nel(teks, style='cyan')
+  tak = nel(teks, style='white')
   cetak(nel(tak, title='SETTING'))
   hu = input(x+'['+p+'f'+x+'] Pilih : ')
   if hu in ['1','01']:
@@ -625,7 +625,7 @@ def setting():
   met = '# PILIH METHOD CRACK'
   sol().print(mark(met, style='green'))
   ioz = '[01] Method Mobile (Fast)\n[02] Method Mbasic (Slow)'
-  gess = nel(ioz, style='cyan')
+  gess = nel(ioz, style='white')
   cetak(nel(gess, title='METHOD'))
   hc = input(x+'['+p+'f'+x+'] Pilih : ')
   if hc in ['1','01']:
