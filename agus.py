@@ -237,12 +237,13 @@ def menu(my_name,my_id):
 	print(f'[•] Status : {h}Premium{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
-	print('%s[%s01%s] %s𝟏. 𝐂𝐑𝐀𝐂𝐊 𝐏𝐔𝐁𝐋𝐈𝐊'%(P,P,P,P));time.sleep(0.02)
-	print('%s[%s02%s] %s𝟐. 𝐂𝐑𝐀𝐂𝐊  %s𝐅𝐎𝐋𝐋𝐎𝐖𝐄𝐑'%(P,P,P,P,P));time.sleep(0.02)
-	print('%s[%s03%s] %s𝟑. 𝐂𝐑𝐀𝐂𝐊 𝐆𝐑𝐔𝐁%s'%(P,P,P,P,P));time.sleep(0.02)
-	print('%s[%s04%s] %s𝟒. 𝐂𝐑𝐀𝐂𝐊 𝐅𝐈𝐋𝐄𝐞%s'%(P,P,P,P,P));time.sleep(0.02)
-	print('%s[%s05%s] %s𝟓. 𝐇𝐚𝐬𝐢𝐥 𝐂𝐫𝐚𝐜𝐤%s'%(P,P,P,M,N));time.sleep(1)
-	jh = input(P+'['+P+'●'+P+']  MENU  ')
+	print('>> 𝟏. 𝐂𝐑𝐀𝐂𝐊 𝐏𝐔𝐁𝐋𝐈𝐊 ')
+	print('>> 𝟐. 𝐂𝐑𝐀𝐂𝐊 𝐅𝐎𝐋𝐋𝐎𝐖𝐄𝐑 ')
+	print('>> 𝟑. 𝐂𝐑𝐀𝐂𝐊 𝐆𝐑𝐔𝐁 ')
+	print('>> 𝟒. 𝐂𝐑𝐀𝐂𝐊 𝐅𝐈𝐋𝐄 ')
+	print('>> 𝟓. 𝗛𝗔𝗦𝗜𝗟 𝗖𝗥𝗔𝗖𝗞  ')
+	print('>> 0. Keluar       ')
+	_____alvino__adijaya_____ = input('\n>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	elif _____alvino__adijaya_____ in ['2']:
@@ -623,7 +624,7 @@ def setting():
     exit()
   met = '# PILIH METHOD CRACK'
   sol().print(mark(met, style='green'))
-  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile (Slow)'
+  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile {h}Recommended{P}')
   gess = nel(ioz, style='cyan')
   cetak(nel(gess, title='METHOD'))
   hc = input(x+'['+p+'f'+x+'] Pilih : ')
