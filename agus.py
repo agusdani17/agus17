@@ -605,25 +605,20 @@ def setting():
 	wl = '# SETTING URUTAN ID'
   sol().print(mark(wl, style='green'))
   teks = '[01] Crack Dari Akun Tertua (Not Recommended)\n[02] Crack Dari Akun Termuda (Recommended)\n[03] Acak Urutan ID (Highly Recommended)'
-	hu = input('>> Pilih : ')
-	if hu in ['1','01']:
-		for tua in sorted(id):
-			id2.append(tua)
-
-	elif hu in ['2','02']:
-		muda=[]
-		for bacot in sorted(id):
-			muda.append(bacot)
-		bcm=len(muda)
-		bcmi=(bcm-1)
-		for xmud in range(bcm):
-			id2.append(muda[bcmi])
-			bcmi -=1
-	elif hu in ['3','03']:
-		for bacot in id:
-			xx = random.randint(0,len(id2))
-			id2.insert(xx,bacot)
-	else:
+  tak = nel(teks, style='cyan')
+  cetak(nel(tak, title='SETTING'))
+  hu = input(x+'['+p+'f'+x+'] Pilih : ')
+  if hu in ['1','01']:
+    for bacot in id:
+      id2.append(bacot)
+  elif hu in ['2','02']:
+    for bacot in id:
+      id2.insert(0,bacot)
+  elif hu in ['3','03']:
+    for bacot in id:
+      xx = random.randint(0,len(id2))
+      id2.insert(xx,bacot)
+  else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
 	print('>> 1. Mobile {h}(Rekomendasi)')
