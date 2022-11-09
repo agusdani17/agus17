@@ -602,44 +602,69 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-  wl = '# SETTING URUTAN ID'
+	wl = '# SETTING URUTAN ID'
   sol().print(mark(wl, style='green'))
   teks = '[01] Crack Dari Akun Tertua (Not Recommended)\n[02] Crack Dari Akun Termuda (Recommended)\n[03] Acak Urutan ID (Highly Recommended)'
-  tak = nel(teks, style='cyan')
-  cetak(nel(tak, title='SETTING'))
-  hu = input(x+'['+p+'f'+x+'] Pilih : ')
-  if hu in ['1','01']:
-    for bacot in id:
-      id2.append(bacot)
-  elif hu in ['2','02']:
-    for bacot in id:
-      id2.insert(0,bacot)
-  elif hu in ['3','03']:
-    for bacot in id:
-      xx = random.randint(0,len(id2))
-      id2.insert(xx,bacot)
-  else:
-    ric = '# PILIHAN TIDAK ADA DI MENU'
-    sol().print(mark(ric, style='red'))
-    exit()
-  met = '# PILIH METHOD CRACK'
-  sol().print(mark(met, style='green'))
-  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile (Slow)'
-  gess = nel(ioz, style='cyan')
-  cetak(nel(gess, title='METHOD'))
-  hc = input(x+'['+p+'f'+x+'] Pilih : ')
-  if hc in ['1','01']:
-    method.append('api')
-  else:
-    method.append('mobile')
-  guw = '# INGIN OPSI CRACK?'
-  sol().print(mark(guw, style='green'))
-  osk = input(x+'['+p+'f'+x+'] Tampilkan Opsi Checkpoint? [ Not Recommended ] (y/t) : ')
-  if osk in ['y','Y']:
-    oprek.append('ya')
-  else:
-    oprek.append('no')
-  passwrd()
+	hu = input('>> Pilih : ')
+	if hu in ['1','01']:
+		for tua in sorted(id):
+			id2.append(tua)
+
+	elif hu in ['2','02']:
+		muda=[]
+		for bacot in sorted(id):
+			muda.append(bacot)
+		bcm=len(muda)
+		bcmi=(bcm-1)
+		for xmud in range(bcm):
+			id2.append(muda[bcmi])
+			bcmi -=1
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+	else:
+		print('>> Pilih Yang Bener Kontooll ')
+		exit()
+	print('>> 1. Mobile {h}(Rekomendasi)')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
+	print('')
+	hc = input('>> Pilih : ')
+	if hc in ['1','01']:
+		method.append('mobile')
+	elif hc in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		setting()
+#	elif hc in ['2','02']:
+#		method.append('free')
+#	elif hc in ['3','03']:
+#		method.append('touch')
+	elif hc in ['4','04']:
+		method.append('mbasic')
+	else:
+		method.append('mobile')
+	print('')
+	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
+	if _jembot_ in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		back()
+	elif _jembot_ in ['y','Y']:
+		taplikasi.append('ya')
+	else:
+		taplikasi.append('no')
+	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
+	if pwplus in ['y','Y']:
+		pwpluss.append('ya')
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		pwku=input('>> Masukkan Password Tambahan : ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
+		pwpluss.append('no')
+	passwrd()
 
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
