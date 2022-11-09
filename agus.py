@@ -50,19 +50,19 @@ def jalan(z):
 		time.sleep(0.03)
 
 for jiah in range(1000):
- aa='Mozilla/5.0 (Linux; Android 10;'
+ aa='Mozilla/5.0 (Linux; Android'
  b=random.choice(['6','7','8','9','10','11','12'])
- c='SM-'
+ c='Infinix'
  d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
  e=random.randrange(678, 9999)
  f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 # g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
- g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
+ g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
  h=random.randrange(73,100)
  i='0'
  j=random.randrange(4200,4900)
  k=random.randrange(40,150)
- l='Android (29/10; 540dpi; 1080x2058; samsung; SM-G965F; star2lte; samsungexynos9810; it_IT; 414443972)'
+ l='Mobile Safari/537.36[FBAN/FB4A;FBAV/222.0.0.48.113;]'
  uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 # uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
  ugen.append(uaku2)
