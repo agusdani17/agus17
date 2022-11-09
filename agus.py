@@ -624,7 +624,7 @@ def setting():
     exit()
   met = '# PILIH METHOD CRACK'
   sol().print(mark(met, style='green'))
-  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile {h}Recommended{P}')
+  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile (Slow)'
   gess = nel(ioz, style='cyan')
   cetak(nel(gess, title='METHOD'))
   hc = input(x+'['+p+'f'+x+'] Pilih : ')
