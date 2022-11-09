@@ -629,9 +629,9 @@ def setting():
   cetak(nel(gess, title='METHOD'))
   hc = input(x+'['+p+'f'+x+'] Pilih : ')
   if hc in ['1','01']:
-    method.append('api')
-  else:
     method.append('mobile')
+  else:
+    method.append('mbasic')
   guw = '# INGIN OPSI CRACK?'
   sol().print(mark(guw, style='green'))
   osk = input(x+'['+p+'f'+x+'] Tampilkan Opsi Checkpoint? [ Not Recommended ] (y/t) : ')
