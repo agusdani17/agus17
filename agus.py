@@ -49,38 +49,20 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.03)
 
-for jiah in range(1000):
- aa='Mozilla/5.0 (Linux; Android 10;'
- b=random.choice(['6','7','8','9','10','11','12'])
- c='SM-'
- d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
- e=random.randrange(678, 9999)
- f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-# g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
- g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
- h=random.randrange(73,100)
- i='0'
- j=random.randrange(4200,4900)
- k=random.randrange(40,150)
- l='Android (29/10; 540dpi; 1080x2058; samsung; SM-G965F; star2lte; samsungexynos9810; it_IT; 414443972)'
- uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-# uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
- ugen.append(uaku2)
-for bb in range(10000):
-	a='Mozilla/5.0 (Linux; U; Android 4.1.2; ro-ro; Archos 50 Platinum Build/JZO54K)'
-	b=random.randrange(100, 9999)
-	c=random.randrange(100, 9999)
+	aa='Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; EML-AL00 Build/HUAWEIEML-AL00)'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' en-us; GT-'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	h=random.randrange(1, 9)
-	i='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 '
-	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
-	l='YandexSearch/7.16'
-	ua=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
-	ugen2.append(ua)
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 baidu.sogo.uc.UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Mobile Safari/537.36'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
