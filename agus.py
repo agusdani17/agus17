@@ -242,7 +242,7 @@ def menu(my_name,my_id):
 	print('%s[%s03%s] %s𝟑. 𝐂𝐑𝐀𝐂𝐊 𝐆𝐑𝐔𝐁%s'%(P,P,P,P,P));time.sleep(0.02)
 	print('%s[%s04%s] %s𝟒. 𝐂𝐑𝐀𝐂𝐊 𝐅𝐈𝐋𝐄𝐞%s'%(P,P,P,P,P));time.sleep(0.02)
 	print('%s[%s05%s] %s𝟓. 𝐇𝐚𝐬𝐢𝐥 𝐂𝐫𝐚𝐜𝐤%s'%(P,P,P,M,N));time.sleep(1)
-	_____alvino__adijaya_____ = input('\n>> Pilih : ')
+	jh = input(P+'['+P+'●'+P+']  MENU  ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
 	elif _____alvino__adijaya_____ in ['2']:
