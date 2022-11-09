@@ -602,7 +602,7 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-	wl = '# SETTING URUTAN ID'
+  wl = '# SETTING URUTAN ID'
   sol().print(mark(wl, style='green'))
   teks = '[01] Crack Dari Akun Tertua (Not Recommended)\n[02] Crack Dari Akun Termuda (Recommended)\n[03] Acak Urutan ID (Highly Recommended)'
   tak = nel(teks, style='cyan')
