@@ -245,7 +245,6 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/Al-Vino'
-	cetak(nel('\tSelamat Datang [yellow]%s[white] Kontol'%(my_name)))
 	print(f'{P}[•] Recode : AGUS-XD')
 	print(f'[•] Status : {h}Pribadi{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
