@@ -48,7 +48,7 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.03)
-
+for xd in range(10000):
 	aa='Mozilla/5.0 (kompatibel; MJ12bot'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c='MJ12bot'
