@@ -64,7 +64,6 @@ def jalan(z):
 	l='http://www.majestic12.co.uk/bot.php?+)'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
-	
 	aa='Mozilla/5.0 (X11; Linux x86_64)'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c='Vivaldi '
