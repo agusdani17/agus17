@@ -64,6 +64,7 @@ def jalan(z):
 	l='http://www.majestic12.co.uk/bot.php?+)'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
+	
 	aa='Mozilla/5.0 (X11; Linux x86_64)'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c='Vivaldi '
@@ -76,8 +77,8 @@ def jalan(z):
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
 	l='Safari/537.36 Vivaldi/5.5.2805.42'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+	ua=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen2.append(ua)
 	
 
 	try:
