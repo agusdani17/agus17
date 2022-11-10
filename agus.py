@@ -38,7 +38,7 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+	prox= requests.get('https://api.proxyscrape.com/?request=displayproxies&protocol=socks5&timeout=100000&country=all&ssl=all&anonymity=all').text
 	open('.prox.txt','w').write(prox)
 except Exception as e:
 	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
@@ -48,9 +48,9 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.03)
-		
+
 for xd in range(10000):
-	a='Mozilla/5.0 (BlackBerry; U; BlackBerry 9780;'
+	a='Mozilla/5.0 (BlackBerry; U;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
 	d='BlackBerry'
@@ -60,25 +60,41 @@ for xd in range(10000):
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Mobile Safari/535.8+'
+	k='Mobile Safari/'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
-	aa='Mozilla/5.0 (Linux; Android'
+
+
+	aa='Mozilla/5.0 (Linux; Android 6.0;'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='Redmi Note'
+	c='Coolpad'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/49.0.2623.105 Mobile Safari/537.36'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/537.36'
+	l=' [FB_IAB/FB4A;FBAV/348.0.0.39.118;]'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
+	aa='Mozilla/5.0 (Linux; Android 4.4.2; '
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c='Vega Build/KOT49H'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/30.0.0.0 Mobile Safari/537.36'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='[FBAN/FB4A;FBAV/23.0.0.22.14;]'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 for x in range(10):
-	a='Mobile Safari/535.8+'
+	a='Mozilla/5.0 (Linux; U; Android 4.1.2; ro-ro; Archos 50 Platinum Build/JZO54K)'
 	b=random.randrange(100, 9999)
 	c=random.randrange(100, 9999)
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -86,13 +102,12 @@ for x in range(10):
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	h=random.randrange(1, 9)
-	i='; U; Bada/1.2; en-us) AppleWebKit/537.31 (KHTML, like Gecko) Chrome/'
+	i='AppleWebKit/534.30 (KHTML, like Gecko) Version/4.0 Mobile Safari/534.30 '
 	j=random.randrange(1, 9)
 	k=random.randrange(1, 9)
-	l='Chrome/34.0.1847.137 Safari/537.31 SmartTV/6.0'
+	l='YandexSearch/7.16'
 	uak=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
-def uaku():	
-
+def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
 		for ub in ua:
