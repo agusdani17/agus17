@@ -245,7 +245,7 @@ def menu(my_name,my_id):
 	banner()
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'github.com/Al-Vino'
-	print(f'{P}[•] Recode : AGUS-XD')
+	print(f'{P}[•] Recode : AGUS-ID')
 	print(f'[•] Status : {h}Pribadi{P}')
 	print(f'[•] Your Ip : {h}{ip}{P}')
 	print('')
@@ -639,7 +639,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print('>> 1. Mobile (Rekomendasi)')
+	print(f'>> 1. Mobile {h}(Rekomendasi)')
 	print('>> 2. Mbasic ')
 	print('>> 3. Touch  ')
 	print('>> 4. Mtouch ')
