@@ -49,7 +49,6 @@ def jalan(z):
 		sys.stdout.flush()
 		time.sleep(0.03)
 
-
 	aa='Mozilla/5.0 (kompatibel; MJ12bot'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c='MJ12bot'
@@ -79,7 +78,7 @@ def jalan(z):
 	l='Safari/537.36 Vivaldi/5.5.2805.42'
 	ua=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen2.append(ua)
-	
+def uaku():	
 
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
