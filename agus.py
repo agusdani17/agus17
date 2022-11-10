@@ -615,7 +615,7 @@ def crack_file():
 #-------------[ PENGATURAN-IDZ ]---------------#
 def setting():
 	print(f'{x}>> 1. Akun Old ')
-	print('>> 2. Akun New (Rekomendasi)')
+	print('>> 2. Akun New ')
 	print('>> 3. Random ')
 	print('')
 	hu = input('>> Pilih : ')
@@ -639,7 +639,7 @@ def setting():
 	else:
 		print('>> Pilih Yang Bener Kontooll ')
 		exit()
-	print(f'>> 1. Mobile {h}(Rekomendasi)')
+	print(f'>> 1. Mobile {h}(Rekomendasi){x}')
 	print('>> 2. Mbasic ')
 	print('>> 3. Touch  ')
 	print('>> 4. Mtouch ')
