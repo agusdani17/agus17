@@ -65,18 +65,18 @@ for xd in range(10000):
 	ugen2.append(uaku)
 
 
-	aa='Mozilla/5.0 (S60V5; U; en-us'
+	aa='Mozilla/5.0 (kompatibel; MJ12bot'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='Nokia5250'
+	c='MJ12bot'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='UC Browser8.2.0.132/50/355/UCWEB'
+	g='MJ12bot/v1.4.5; http://www.majestic12.co.uk/bot.php?+)'
 	h=random.randrange(73,100)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='50/355/UCWEB'
+	l='http://www.majestic12.co.uk/bot.php?+)'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 	
