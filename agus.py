@@ -38,61 +38,56 @@ cokbrut=[]
 ses=requests.Session()
 princp=[]
 try:
-	prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
-    	open('.proxy.txt','w').write(prox)
-	
+    prox= requests.get('https://api.proxyscrape.com/v2/?request=displayproxies&protocol=socks4&timeout=100000&country=all&ssl=all&anonymity=all').text
+    open('.proxy.txt','w').write(prox)
+   
 except Exception as e:
-	print('[[\x1b[1;92m•\x1b[1;97m] [\x1b[1;96mAlvino_adijaya_xy')
-prox=open('.prox.txt','r').read().splitlines()
-def jalan(z):
-	for e in z + "\n":
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(0.03)
-
+    exit(e)
+    rb = random.choice(["YaApp_Android/9.00 YaSearchBrowser/9.00","Puffin/9.3.1.50898AP","Puffin/9.7.2.51367AP","Puffin/9.6.1.51244AP","OPT/2.9","YaApp_Android/9.35 YaSearchBrowser/9.35","YaApp_Android/11.01 YaSearchBrowser/11.01","YaApp_Android/10.44 YaSearchBrowser/10.44","115Browser/24.2.0.2","1stBrowser/45.0.2454.171","2345chrome v2.5.0.5031","Alienforce/9.0.1","UCBrowser"])
+random_samsung = random.choice(["LG-D724","LGLS990","LG-D851","LGUS990","SM-A500Y","SM-A500H","SM-A500FU","SM-A500F","SAMSUNG SM-A500S","SM-A500W"])
+random_redmi = random.choice(["Redmi Y2","Redmi Y1","Redmi Y1","Redmi S2","Redmi Note 5A Prime","Redmi Note 5A","Redmi Note 5 pro","Redmi Note 5"])
 for xd in range(10000):
-	aa='Mozilla/5.0 (Linux; Android 5.1.1;'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c='SM-T335 Build/'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Chrome/59.0.3071.125 Safari/537.36'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
-for x in range(10):
-	a='Mozilla/5.0 (Linux; Android 7.1.2;'
-	b=random.randrange(100, 9999)
-	c=random.randrange(100, 9999)
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	h=random.randrange(1, 9)
-	i='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.158 Mobile Safari/537.36'
-	j=random.randrange(1, 9)
-	k=random.randrange(1, 9)
-	l='Mobile Safari/537.36'
-	ua=f'{a}{b}/{c}{d}{e}{f}{g}{h}{i}{j}.{k} {l}'
-	ugen2.append(ua)
-	
+    a='Mozilla/5.0 (Linux; Android 11;'
+    b=random.randrange(1, 9)
+    c=random.randrange(1, 9)
+    d=f'{random_redmi})'
+    e=random.randrange(100, 9999)
+    f='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0'
+    g=random.randrange(1, 9)
+    h=random.randrange(1, 4)
+    i=random.randrange(1, 4)
+    j=random.randrange(1, 4)
+    k='Mobile Safari/537.36'
+    uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
+    ugen2.append(uaku)
+
+
+    aa='Mozilla/5.0 (Linux; Android 11;'
+    b=random.choice(['6','7','8','9','10','11','12'])
+    c=f'{random_samsung})'
+    d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    e=random.randrange(1, 999)
+    f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+    g='AppleWebKit/537.36 (KHTML, like Gecko) Chrome/107.0.0.0'
+    h=random.randrange(73,100)
+    i='0'
+    j=random.randrange(4200,4900)
+    k=random.randrange(40,150)
+    l='Mobile Safari/537.36'
+    uaku2=(f'{aa} {b}; {c}{d}{e}{f} {g}{h}{i}{j}{k} {l}')
+    ugen.append(uaku2)
 def uaku():
 	try:
 		ua=open('bbnew.txt','r').read().splitlines()
-		for ub in ua:
+		for ub in ua : 
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/EC-1709/a/blob/main/bbnew.txt').text
-		ua=open('.bbnew.txt','w')
+		a=requests.get('https://github.com/RIDWAN-XD778/ugen/blob/main/bbnew.txt').text
+		ua=open('bbnew.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
 			ua.write(un+'\n')
-		ua=open('.bbnew.txt','r').read().splitlines()
+		ua=open('bbnew.txt','r').read().splitlines()
     
 #------------[ INDICATION ]---------------#
 id,id2,loop,ok,cp,akun,oprek,method,lisensiku,taplikasi,tokenku,uid,lisensikuni= [],[],0,0,0,[],[],[],[],[],[],[],[]
