@@ -58,33 +58,33 @@ for xd in range(10000):
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 	
-	aa='Mozilla/5.0 (Linux; Android 12;'
+	aa='Mozilla/5.0 (Linux; Android 11;'
 	b=random.choice(['7.0','8.1.0','9','10','11','12'])
-	c=random.choice(['Samsung Galaxy F13'])
+	c=random.choice(['Redmi Note 9 Pro'])
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='Build/SP1A.210812.016; wv) AppleWebKit/537.36 (KHTML, like Gecko)'
+	g='Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko)'
 	h=random.randrange(80,103)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Version/4.0 Chrome/105.0.5195.136 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/391.1.0.37.104;]'
+	l='Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 	
-	a='Mozilla/5.0 (BlackBerry; U;'
+	a='Mozilla/5.0 (Linux; Android 4.4.2;'
 	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
-	c=random.choice(['BlackBerry 9900; en-GB'])
+	c=random.choice(['LG-V410 Build/KOT49I.V41010d'])
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/534.11+ (KHTML, like Gecko) Version/7.1.0.825 Mobile Safari/534.11+'
+	g=' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36'
 	h=random.randrange(80,103)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/534.11+'
+	l='Crome Safari/537.36'
 	uaku2=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 	
@@ -225,8 +225,8 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'MuhAgusDani'
 	cetak(nel('\tSELAMAT DATANG [yellow]%s[white]'%(my_name)))
-	print(f'{asu}├──> ID KAMU : '+str(my_id))
-	print(f'├──> IP KAMU : {ip}')
+	print(f'{h}├──> ID KAMU : '+str(my_id))
+	print(f'{h}├──> IP KAMU : {ip}')
 	print(f'├──> GITHUB  : {gh}')
 	print('|')
 	print('├──> 1. CRACK PUBLIK ')
@@ -423,8 +423,8 @@ def setting():
 	else:
 		print('├──> PILIH YANG BENAR ')
 		exit()
-	print(f'├──> 1. MOBILE FACEBOOK {h}[Rekomendasi]{x} ')
-	print('├──> 2. MBASIC FACEBOOK ')
+	print(f'├──> 1. MOBILE FACEBOOK {h}[Rekomendasi] ')
+	print(f'├──> 2. MBASIC FACEBOOK{x} ')
 	###print('├──> 3. bbh  ')
 	###print('├──> 4. Mfreefb ')
 	print('|')
@@ -439,7 +439,7 @@ def setting():
 		method.append('mbasic')
 	else:
 		method.append('mobile')
-	print('|')
+	print(f'{asu}|')
 	_ilman_ = input('├──> INGIN MENAMPILKAN APLIKASI TERKAIT [ Y/T ] : ')
 	if _ilman_ in ['']:
 		print('├──> PILIH YANG BENAR ')
