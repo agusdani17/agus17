@@ -44,17 +44,17 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-	a='Mozilla/5.0 (Linux; Android'
+	a='Mozilla/5.0 (Linux; Android 4.1.2;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='10; SM-G970F)'
+	d='Nokia_X Build/)'
 	e=random.randrange(100, 9999)
 	f='AppleWebKit/537.36 (KHTML, like Gecko)'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Chrome/75.0.3396.81 Mobile Safari/537.36'
+	k='Chrome/27.0.87.90 Mobile Safari/537.36'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 	
