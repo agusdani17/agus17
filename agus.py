@@ -298,10 +298,10 @@ def menu(my_name,my_id):
 	os.system('clear')
 	banner()
 	ip = requests.get("https://api.ipify.org").text
-	gh = 'IlmanRamdhaniR'
+	gh = 'MuhAgusDani'
 	cetak(nel('\tSELAMAT DATANG [yellow]%s[white]'%(my_name)))
-	print(f'├──> ID KAMU : '+str(my_id))
-	print(f'├──> IP KAMU : {ip}')
+	print(f'{h}├──> ID KAMU : '+str(my_id))
+	print(f'{h}├──> IP KAMU : {ip}')
 	print(f'├──> GITHUB  : {gh}')
 	print('|')
 	print('├──> 1. CRACK PUBLIK ')
@@ -498,7 +498,7 @@ def setting():
 	else:
 		print('├──> PILIH YANG BENAR ')
 		exit()
-	print('├──> 1. MOBILE FACEBOOK [RECOMENDED] ')
+	print(f'├──> 1. MOBILE FACEBOOK {h}[Rekomendasi]{x} ')
 	print('├──> 2. MBASIC FACEBOOK ')
 	###print('├──> 3. bbh  ')
 	###print('├──> 4. Mfreefb ')
