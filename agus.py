@@ -58,7 +58,7 @@ for xd in range(10000):
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 	
-aa='Mozilla/5.0 (BB10;'
+	aa='Mozilla/5.0 (BB10;'
 	b=random.choice(['7.0','8.1.0','9','10','11','12'])
 	c=random.choice(['BlackBerry Touch'])
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
