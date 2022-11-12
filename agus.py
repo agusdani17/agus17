@@ -27,7 +27,6 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-for xd in range(10000):
 	a='Mozilla/5.0 (Symbian/3; Series60/'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
