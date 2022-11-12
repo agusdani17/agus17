@@ -383,7 +383,7 @@ def dump_massal():
 		back()
 #-------------[ PENGATURAN-ID ]---------------#
 def setting():
-	print(f'{x}├──> 1. AKUN OLD ')
+	print(f'{asu}├──> 1. AKUN OLD ')
 	print('├──> 2. AKUN NEW ')
 	print('├──> 3. RANDOM ')
 	print('|')
