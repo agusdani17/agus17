@@ -26,22 +26,26 @@ try:
     open('.proxy.txt','w').write(prox)
 except Exception as e:
     exit(e)
-for xd in range(10000):	
-	aa='Mozilla/5.0 (Linux; Android 11;'
-	b=random.choice(['7.0','8.1.0','9','10','11','12'])
-	c=random.choice(['Redmi Note 9 Pro'])
+for xd in range(10000):
+	a='Mozilla/5.0 (Linux; Android 4.4.2;'
+	a='Mozilla/5.0 (Linux; Android 11;'
+	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
+	c=random.choice(['LG-V410 Build/KOT49I.V41010d'])
+	c=random.choice(['ANY-LX1 Build/HONORANY-L21CQ;'])
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko)'
+	g=' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36'
+	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/107.0.5304.105 Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/391.1.0.37.104;]'
 	h=random.randrange(80,103)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	l='Crome Safari/537.36'
+	l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/391.1.0.37.104;]'
+	uaku2=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
-	
+
 	a='Mozilla/5.0 (Linux; Android 11;'
 	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
 	c=random.choice(['ANY-LX1 Build/HONORANY-L21CQ;'])
@@ -54,8 +58,8 @@ for xd in range(10000):
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
 	l='Mobile Safari/537.36 [FB_IAB/FB4A;FBAV/391.1.0.37.104;]'
-	uaku2=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+	ua=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen2.append(ua)
 	
 def uaku():
 	try:
