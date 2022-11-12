@@ -225,8 +225,8 @@ def menu(my_name,my_id):
 	ip = requests.get("https://api.ipify.org").text
 	gh = 'MuhAgusDani'
 	cetak(nel('\tSELAMAT DATANG [yellow]%s[white]'%(my_name)))
-	print(f'{h}├──> ID KAMU : '+str(my_id))
-	print(f'{h}├──> IP KAMU : {ip}')
+	print(f'{asu}├──> ID KAMU : '+str(my_id))
+	print(f'{asu}├──> IP KAMU : {ip}')
 	print(f'├──> GITHUB  : {gh}')
 	print('|')
 	print('├──> 1. CRACK PUBLIK ')
