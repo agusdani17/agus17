@@ -26,35 +26,14 @@ try:
     open('.proxy.txt','w').write(prox)
 except Exception as e:
     exit(e)
-for xd in range(10000):
-	a='Mozilla/5.0 (Symbian/3; Series60/'
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='Nokia'
-	e=random.randrange(100, 9999)
-	f='/110.021.0028; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/535.1 (KHTML, like Gecko) NokiaBrowser/'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
-	i=random.randrange(1, 4)
-	j=random.randrange(1, 4)
-	k='Mobile Safari/535.1'
-	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
-
-	aa='Mozilla/5.0 (Linux; Android 7.0;'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c='XT1'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/112.0.0.17.70;]'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
-	ugen.append(uaku2)
+for jiah in range(1000):
+      rr = random.randint
+      rc = random.choice
+      aa = ['tr-tr','en-gb','en-us','ar-ae','de-de','ko-kr','th-th','en-au','fa-ir','de-de','zh-cn','nl-nl','pt-br','ru-ru','id-id','zk-hk','sr-rs']
+      bb = ['535.19','535.36','535.37']
+      cc = ['49','84','47','48']
+      uaku2= f'Mozilla/5.0 (iPhone {str(rr(7,9))}.0) AppleWebKit/{str(rc(bb))} (KHTML, like Gecko) Mobile/{str(rr(18,99))}14B100 [FBAN/MessengerForiOS;FBAV/124.0.0.50.70;FBBV/63293619;FBDV/iPhone9,2;FBMD/iPhone;FBSN/iOS;FBSV/10.1.1;FBSS/3;FBCR/Viettel;FBID/phone;FBLC/vi_VN;FBOP/5;FBRV/0]{str(rc(bb))}'
+      ugen.append(uaku2)
 	
 def uaku():
 	try:
@@ -483,7 +462,6 @@ def crack(idf,pwv):
 	nip=random.choice(prox)
 	proxs= {'http': 'socks4://'+nip}
 	ua = random.choice(ugen)
-	ua2 = random.choice(ugen2)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
