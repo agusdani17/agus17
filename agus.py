@@ -41,9 +41,9 @@ for xd in range(10000):
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
 
-	aa='Mozilla/5.0 (Linux; Android'
+	aa='Mozilla/5.0 (Linux; Android 7.0;'
 	b=random.choice(['6','7','8','9','10','11','12'])
-	c='LG-'
+	c='XT1'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
@@ -52,7 +52,7 @@ for xd in range(10000):
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/106.0.0.17.70;]'
+	l='Mobile Safari/537.36 [FB_IAB/MESSENGER;FBAV/112.0.0.17.70;]'
 	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 	
