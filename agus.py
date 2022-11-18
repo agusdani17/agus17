@@ -27,13 +27,20 @@ try:
 except Exception as e:
     exit(e)
 for jiah in range(1000):
-      rr = random.randint
-      rc = random.choice
-      aa = ['tr-tr','en-gb','en-us','ar-ae','de-de','ko-kr','th-th','en-au','fa-ir','de-de','zh-cn','nl-nl','pt-br','ru-ru','id-id','zk-hk','sr-rs']
-      bb = ['535.19','535.36','535.37']
-      cc = ['49','84','47','48']
-      uaku2= f'Mozilla/5.0 (iPhone {str(rr(7,9))}.0) AppleWebKit/{str(rc(bb))} (KHTML, like Gecko) Mobile/{str(rr(18,99))}14B100 [FBAN/MessengerForiOS;FBAV/124.0.0.50.70;FBBV/63293619;FBDV/iPhone9,2;FBMD/iPhone;FBSN/iOS;FBSV/10.1.1;FBSS/3;FBCR/Viettel;FBID/phone;FBLC/vi_VN;FBOP/5;FBRV/0]{str(rc(bb))}'
-      ugen.append(uaku2)
+        aa='Mozilla/5.0 (SymbianOS/9.4; U; en-US;'
+	b=random.choice(['6','7','8','9','10','11','12'])
+	c=' Series60/'
+	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	e=random.randrange(1, 999)
+	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
+	g='nokia5130c-2/UC Browser7.5.1.77/69/351 UNTRUSTED/1.0'
+	h=random.randrange(73,100)
+	i='0'
+	j=random.randrange(4200,4900)
+	k=random.randrange(40,150)
+	l='Browser7.5.1.77/69/351 UNTRUSTED/1.0'
+	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+	ugen.append(uaku2)
 	
 def uaku():
 	try:
