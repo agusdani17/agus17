@@ -26,20 +26,19 @@ try:
     open('.proxy.txt','w').write(prox)
 except Exception as e:
     exit(e)
-for jiah in range(1000):
-        aa='Mozilla/5.0 (SymbianOS/9.1; U; en-US;'
-	b=random.choice(['6','7','8','9','10','11','12'])
-	c=' Series60/'
-	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	e=random.randrange(1, 999)
-	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='nokia5130c-2/UC Browser7.5.1.77/69/351 UNTRUSTED/1.0'
-	h=random.randrange(73,100)
-	i='0'
-	j=random.randrange(4200,4900)
-	k=random.randrange(40,150)
-	l='Browser7.5.1.77/69/351 UNTRUSTED/1.0'
-	uaku2=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
+for xd in range(10000):
+	a='Mozilla/5.0 (SymbianOS/9.4; U;'
+	b=random.randrange(1, 9)
+	c=random.randrange(1, 9)
+	d='Series60/'
+	e=random.randrange(100, 9999)
+	f='nokia5130c-2/UC Browser7.5.1.77/69/351 UNTRUSTED/1.0/'
+	g=random.randrange(1, 9)
+	h=random.randrange(1, 4)
+	i=random.randrange(1, 4)
+	j=random.randrange(1, 4)
+	k='Browser7.5.1.77/69/351 UNTRUSTED/1.0''
+	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen.append(uaku2)
 	
 def uaku():
