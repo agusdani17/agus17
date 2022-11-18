@@ -27,7 +27,7 @@ try:
 except Exception as e:
     exit(e)
 for jiah in range(1000):
-        aa='Mozilla/5.0 (SymbianOS/9.4; U; en-US;'
+        aa='Mozilla/5.0 (SymbianOS/9.1; U; en-US;'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c=' Series60/'
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
