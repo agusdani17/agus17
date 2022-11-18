@@ -27,17 +27,18 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-	a='Mozilla/5.0 (SymbianOS/9.4; U; en-US;'
+	a='Opera/9.50 (J2ME/MIDP;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='Series60/'
+	d='Opera mini/'
 	e=random.randrange(100, 9999)
-	f='nokia5130c-2/UC Browser7.5.1.77/69/351 UNTRUSTED/1.0/'
+	f='AppleWebKit/420+ (KHTML, like Gecko) Version/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Browser7.5.1.77/'
+	k='Mobile/ Safari/419.3
+Opera/9.51 Beta (Microsoft Windows; PPC; Opera Mobi/1718; U; en)'
 	uaku2=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen.append(uaku2)
 	
