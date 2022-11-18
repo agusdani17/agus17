@@ -37,7 +37,7 @@ for xd in range(10000):
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='Browser7.5.1.77/69/351 UNTRUSTED/1.0''
+	k='Browser7.5.1.77/69/351 UNTRUSTED/1.0'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen.append(uaku2)
 	
