@@ -30,7 +30,7 @@ for xd in range(10000):
 	a='Mozilla/5.0 (SymbianOS/9.4; U; en-US;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='Nokia'
+	d='Series60/'
 	e=random.randrange(100, 9999)
 	f='nokia5130c-2/UC Browser7.5.1.77/69/351 UNTRUSTED/1.0/'
 	g=random.randrange(1, 9)
