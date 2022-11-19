@@ -30,9 +30,9 @@ for xd in range(10000):
 	a='Mozilla/5.0 (Linux; Android 10;'
 	b=random.randrange(1, 9)
 	c=random.randrange(1, 9)
-	d='Huawei BROWSER'
+	d='MED-LX9;'
 	e=random.randrange(100, 9999)
-	f='MED-LX9; HMSCore 6.6.0.331) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
+	f='HMSCore ) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/'
 	g=random.randrange(1, 9)
 	h=random.randrange(1, 4)
 	i=random.randrange(1, 4)
