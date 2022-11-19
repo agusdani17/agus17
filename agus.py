@@ -40,20 +40,6 @@ for xd in range(10000):
 	k='HuaweiBrowser/12.1.0.303 Mobile Safari/537.36'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
-
-        a='Mozilla/5.0 (Linux; Android'
-	b=random.randrange(1, 9)
-	c=random.randrange(1, 9)
-	d='Lenovo A536 Build/)'
-	e=random.randrange(100, 9999)
-	f='AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/'
-	g=random.randrange(1, 9)
-	h=random.randrange(1, 4)
-	i=random.randrange(1, 4)
-	j=random.randrange(1, 4)
-	k='Mobile Safari/537.36'
-	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
-	ugen2.append(uaku)
 	
 def uaku():
 	try:
