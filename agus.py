@@ -467,7 +467,7 @@ def crack(idf,pwv):
 	sys.stdout.flush()
 	nip=random.choice(prox)
 	proxs= {'http': 'socks5://'+nip}
-	ua = random.choise(ugen)
+	ua = random.choice(ugen)
 	ses = requests.Session()
 	for pw in pwv:
 		try:
