@@ -40,7 +40,6 @@ for xd in range(10000):
 	k='HuaweiBrowser/12.1.0.303 Mobile Safari/537.36'
 	uaku=(f'{a}{b}.{c} {d}{e}{f}{g}.{h}.{i}.{j} {k}')
 	ugen2.append(uaku)
-
         aa='Mozilla/5.0 (Linux; U; Android'
 	b=random.choice(['6','7','8','9','10','11','12'])
 	c='Redmi 6A'
