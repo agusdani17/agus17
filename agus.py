@@ -47,7 +47,7 @@ def uaku():
 		for ub in ua : 
 			ugen.append(ub)
 	except:
-		a=requests.get('https://github.com/agusdani17/agus17/blob/main/uaku.txt').text
+		a=requests.get('https://github.com/IlmanRamdhaniR/ILMAN-XD/blob/main/ua2.txt').text
 		ua=open('.ua2.txt','w')
 		aa=re.findall('line">(.*?)<',str(a))
 		for un in aa:
@@ -377,9 +377,9 @@ def setting():
 		print('├──> PILIH YANG BENAR ')
 		exit()
 	print(f'├──> 1. MOBILE FACEBOOK {h}[Rekomendasi]{x}')
-	print(f'├──> 2. MBASIC FACEBOOK ')
+	print(f'{asu}├──> 2. MBASIC FACEBOOK ')
 	###print('├──> 3. bbh  ')
-	print(f'├──> 3. Mfreefb ')
+	###print('├──> 3. Mfreefb ')
 	print('|')
 	hc = input('├──> PILIH : ')
 	if hc in ['1','01']:
