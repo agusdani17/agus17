@@ -15,7 +15,6 @@ from rich import pretty
 from rich.text import Text as tekz
 pretty.install()
 CON=sol()
-Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.6 (Change: )"
 #------------------[ USER-AGENT ]-------------------#
 ugen2=[]
 ugen=[]
