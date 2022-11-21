@@ -15,6 +15,7 @@ from rich import pretty
 from rich.text import Text as tekz
 pretty.install()
 CON=sol()
+Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/527  (KHTML, like Gecko, Safari/419.3) Arora/0.6 (Change: )"
 #------------------[ USER-AGENT ]-------------------#
 ugen2=[]
 ugen=[]
@@ -27,33 +28,33 @@ try:
 except Exception as e:
     exit(e)
 for xd in range(10000):	
-	aa='Mozilla/5.0 (Linux; Android 11;'
+	aa='Mozilla/5.0 (Windows; U; Windows NT 6.0;'
 	b=random.choice(['7.0','8.1.0','9','10','11','12'])
 	c=random.choice(['Redmi Note 9 Pro'])
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g='Build/RKQ1.200826.002) AppleWebKit/537.36 (KHTML, like Gecko)'
+	g='en-US) AppleWebKit/527  (KHTML, like Gecko,'
 	h=random.randrange(80,103)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Version/4.0 Chrome/103.0.5060.129 Mobile Safari/537.36'
+	l='Safari/419.3) Arora/0.6 (Change: )'
 	uaku=f'{aa} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen2.append(uaku)
 	
-	a='Mozilla/5.0 (Linux; Android 4.4.2;'
+	a='Mozilla/5.0 (Linux; U; Android 1.5;'
 	b=random.choice(['5.0','6.0','7.0','8.1.0','9','10','11','12'])
-	c=random.choice(['LG-V410 Build/KOT49I.V41010d'])
+	c=random.choice([' en-us; sdk Build/CUPCAKE)'])
 	d=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
 	e=random.randrange(1, 999)
 	f=random.choice(['A','B', 'C', 'D', 'E', 'F', 'G', 'H', 'I', 'J', 'K', 'L', 'M', 'N', 'O', 'P', 'Q', 'R', 'S', 'T', 'U', 'V', 'W', 'X', 'Y', 'Z'])
-	g=' AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.84 Safari/537.36'
+	g=' AppleWebkit/528.5  (KHTML, like Gecko) Version/'
 	h=random.randrange(80,103)
 	i='0'
 	j=random.randrange(4200,4900)
 	k=random.randrange(40,150)
-	l='Crome Safari/537.36'
+	l='Mobile Safari/525.20.1'
 	uaku2=f'{a} {b}; {c}{d}{e}{f}) {g}{h}.{i}.{j}.{k} {l}'
 	ugen.append(uaku2)
 	
