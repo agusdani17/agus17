@@ -736,8 +736,8 @@ def crack(idf,pwv):
 				continue
 		except requests.exceptions.ConnectionError:
 			time.sleep(31)
-	loop1
-+=
+	loop+=1
+	
 #--------------------[ CHECK-OPSI-CHEKPOINT ]-------------------#
 import requests, shutil, os, re, bs4, sys, json, time, platform ,random, datetime, subprocess, logging, base64
 import hmac, hashlib, urllib, stdiomask, urllib.request, uuid
